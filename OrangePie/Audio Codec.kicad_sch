@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "c3c620d9-16f1-4a6b-acc0-dbf80953df5f")
+	(uuid "41648edb-0f33-4e96-9af2-ba0e92a87659")
 	(paper "A4")
 	(title_block
 		(title "PCM2704 USB SOUND OUTPUT")
@@ -5433,6 +5433,7 @@
 	)
 	(label "VCOM"
 		(at 92.71 96.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5454,6 +5455,7 @@
 	)
 	(label "D+"
 		(at 99.06 104.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5464,6 +5466,7 @@
 	)
 	(label "D-"
 		(at 99.06 106.68 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

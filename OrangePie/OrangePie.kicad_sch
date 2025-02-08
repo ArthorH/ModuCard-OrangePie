@@ -5,6 +5,26 @@
 	(uuid "3103c9de-f1ba-4d51-8bfc-798df1c75e2f")
 	(paper "A4")
 	(lib_symbols)
+	(bus
+		(pts
+			(xy 147.32 49.53) (xy 153.67 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54ca4534-9d9a-467b-a8db-fad56fb78eba")
+	)
+	(bus
+		(pts
+			(xy 147.32 68.58) (xy 153.67 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c452c628-0c64-4f91-9d34-08915a53af85")
+	)
 	(sheet
 		(at 156.21 113.03)
 		(size 25.4 33.02)
@@ -73,6 +93,16 @@
 				(justify left top)
 			)
 		)
+		(pin "USB_CAN{USB}" input
+			(at 147.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6bc11fde-5ef6-4d54-a472-02a4bc125906")
+		)
 		(instances
 			(project "OrangePie"
 				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f"
@@ -82,7 +112,7 @@
 		)
 	)
 	(sheet
-		(at 110.49 93.98)
+		(at 109.22 86.36)
 		(size 38.1 11.43)
 		(fields_autoplaced yes)
 		(stroke
@@ -94,7 +124,7 @@
 		)
 		(uuid "4ef8679b-7d0c-4776-8ce3-817c4ec1763f")
 		(property "Sheetname" "Can Transiver"
-			(at 110.49 93.2684 0)
+			(at 109.22 85.6484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -103,7 +133,7 @@
 			)
 		)
 		(property "Sheetfile" "Can Transiver.kicad_sch"
-			(at 110.49 105.9946 0)
+			(at 109.22 98.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -187,6 +217,16 @@
 				(justify left top)
 			)
 		)
+		(pin "USB_AUDIO{USB}" input
+			(at 147.32 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0a559832-9132-40c9-b3fa-afe4dde9a3f2")
+		)
 		(instances
 			(project "OrangePie"
 				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f"
@@ -234,8 +274,8 @@
 		)
 	)
 	(sheet
-		(at 154.94 43.18)
-		(size 26.67 30.48)
+		(at 153.67 43.18)
+		(size 34.29 30.48)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -246,7 +286,7 @@
 		)
 		(uuid "d3741ba6-986f-4446-bdcd-c781f28afbee")
 		(property "Sheetname" "USB HUB"
-			(at 154.94 42.4684 0)
+			(at 153.67 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -255,13 +295,63 @@
 			)
 		)
 		(property "Sheetfile" "USB HUB.kicad_sch"
-			(at 154.94 74.2446 0)
+			(at 153.67 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "USB3{USB}" input
+			(at 153.67 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5970dab1-25ba-4764-9e03-3c885db4ddf4")
+		)
+		(pin "USB4{USB}" input
+			(at 153.67 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c3eed846-b3e2-44b6-9925-15dcf71f83b3")
+		)
+		(pin "USB_SBC{USB}" input
+			(at 187.96 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "31b4ff8a-1307-4e46-8103-fd159ff39932")
+		)
+		(pin "USB_AUDIO{USB}" input
+			(at 153.67 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "02f184c8-4bf1-47d1-9c10-a7c146c15143")
+		)
+		(pin "USB_CAN{USB}" input
+			(at 153.67 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6922329f-bfb3-44c2-80d1-b42bdf9996ce")
 		)
 		(instances
 			(project "OrangePie"

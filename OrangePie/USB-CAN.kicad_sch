@@ -2,7 +2,99 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "ad5f30d1-3253-4c87-b664-791599014228")
+	(uuid "ab255fd3-dc15-454e-b105-fb9837da345c")
 	(paper "A4")
 	(lib_symbols)
+	(bus_entry
+		(at 86.36 152.4)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2284e776-9199-43d1-a7e8-ed22cca7b2eb")
+	)
+	(bus_entry
+		(at 86.36 149.86)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfd7d1df-9884-4ac7-bdb9-aab496811bac")
+	)
+	(bus
+		(pts
+			(xy 86.36 152.4) (xy 81.28 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f8fb050-f22b-45b6-bc24-dcb362ab2739")
+	)
+	(bus
+		(pts
+			(xy 86.36 149.86) (xy 86.36 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a6196c5-cd44-4a3f-96a0-8f99ea10e6be")
+	)
+	(wire
+		(pts
+			(xy 88.9 147.32) (xy 110.49 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80252cdd-1016-4873-858a-0ea2c0cac821")
+	)
+	(wire
+		(pts
+			(xy 88.9 149.86) (xy 110.49 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efcbd2a2-93d9-4fed-9136-e83f370f76f4")
+	)
+	(label "USB_CAN.-"
+		(at 92.71 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "539b0be4-8c6d-4b5f-9e1b-954fd56d0af2")
+	)
+	(label "USB_CAN.+"
+		(at 92.71 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed0ac110-f30f-4e3a-b85e-d930d0ebd37a")
+	)
+	(hierarchical_label "USB_CAN{USB}"
+		(shape input)
+		(at 81.28 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c70b2046-1744-4c1d-83ed-9cc62bc99626")
+	)
 )
