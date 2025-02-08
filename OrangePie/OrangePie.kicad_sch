@@ -1,0 +1,317 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3103c9de-f1ba-4d51-8bfc-798df1c75e2f")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 156.21 113.03)
+		(size 25.4 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "173701d7-f398-4eb9-8378-88f17944d65b")
+		(property "Sheetname" "Power Oring"
+			(at 156.21 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power Oring.kicad_sch"
+			(at 156.21 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OrangePie"
+				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 43.18)
+		(size 38.1 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "285b75df-88b4-4328-84e3-9524aab48e89")
+		(property "Sheetname" "USB-CAN"
+			(at 109.22 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB-CAN.kicad_sch"
+			(at 109.22 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OrangePie"
+				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 93.98)
+		(size 38.1 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4ef8679b-7d0c-4776-8ce3-817c4ec1763f")
+		(property "Sheetname" "Can Transiver"
+			(at 110.49 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Can Transiver.kicad_sch"
+			(at 110.49 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OrangePie"
+				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 43.18)
+		(size 43.18 96.52)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "50dedcd5-65c1-4d6e-8d03-473117f8d376")
+		(property "Sheetname" "DIN41612 connector"
+			(at 53.34 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DIN41612 connector.kicad_sch"
+			(at 53.34 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OrangePie"
+				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 62.23)
+		(size 38.1 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5c90feeb-24b4-4351-a3fd-4dbcb45d386c")
+		(property "Sheetname" "Audio Codec"
+			(at 109.22 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Audio Codec.kicad_sch"
+			(at 109.22 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OrangePie"
+				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 43.18)
+		(size 44.45 96.52)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d2960c43-83cc-4db9-89f3-db63fa692eb6")
+		(property "Sheetname" "OrangePi 5 pro Header"
+			(at 196.85 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OrangePi 5 pro Header.kicad_sch"
+			(at 196.85 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OrangePie"
+				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 43.18)
+		(size 26.67 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d3741ba6-986f-4446-bdcd-c781f28afbee")
+		(property "Sheetname" "USB HUB"
+			(at 154.94 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB HUB.kicad_sch"
+			(at 154.94 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OrangePie"
+				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 114.3)
+		(size 38.1 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fa68c879-ed97-450e-814c-4bbcc113b22b")
+		(property "Sheetname" "5v buck"
+			(at 110.49 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5v buck.kicad_sch"
+			(at 110.49 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "OrangePie"
+				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
