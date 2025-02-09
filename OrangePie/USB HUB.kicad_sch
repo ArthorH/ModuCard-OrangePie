@@ -1949,7 +1949,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 95.25) (xy 162.56 95.25)
+			(xy 157.48 93.98) (xy 162.56 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2079,7 +2079,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 95.25) (xy 146.05 95.25)
+			(xy 152.4 93.98) (xy 146.05 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2219,7 +2219,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 97.79) (xy 154.94 99.06)
+			(xy 154.94 96.52) (xy 154.94 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2229,7 +2229,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 92.71) (xy 154.94 90.17)
+			(xy 154.94 91.44) (xy 154.94 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2466,7 +2466,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal_GND24_Small")
-		(at 154.94 95.25 270)
+		(at 154.94 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2474,7 +2474,7 @@
 		(dnp no)
 		(uuid "1e1e9eb5-615b-4b9a-a825-8ffbf4264836")
 		(property "Reference" "Y1"
-			(at 159.258 91.186 90)
+			(at 159.258 89.916 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2482,7 +2482,7 @@
 			)
 		)
 		(property "Value" "12MHz"
-			(at 160.782 93.218 90)
+			(at 160.782 91.948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2490,7 +2490,7 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
-			(at 154.94 95.25 0)
+			(at 154.94 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,7 +2499,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 95.25 0)
+			(at 154.94 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2508,7 +2508,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 95.25 0)
+			(at 154.94 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3630,7 +3630,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 146.05 95.25 0)
+		(at 146.05 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3638,7 +3638,7 @@
 		(dnp no)
 		(uuid "b3d6eb12-7582-40cd-b495-04af79f781da")
 		(property "Reference" "#PWR010"
-			(at 146.05 101.6 0)
+			(at 146.05 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3647,7 +3647,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 97.282 0)
+			(at 149.86 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3655,7 +3655,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 95.25 0)
+			(at 146.05 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3664,7 +3664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 95.25 0)
+			(at 146.05 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3673,7 +3673,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 95.25 0)
+			(at 146.05 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3696,7 +3696,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 162.56 95.25 0)
+		(at 162.56 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3704,7 +3704,7 @@
 		(dnp no)
 		(uuid "e0abb5de-0b41-40c9-b056-5260d929e373")
 		(property "Reference" "#PWR011"
-			(at 162.56 101.6 0)
+			(at 162.56 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,7 +3713,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.624 97.282 0)
+			(at 166.624 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +3721,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 95.25 0)
+			(at 162.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,7 +3730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 95.25 0)
+			(at 162.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,7 +3739,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 95.25 0)
+			(at 162.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)

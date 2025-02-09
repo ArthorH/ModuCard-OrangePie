@@ -897,7 +897,7 @@
 	)
 	(bus
 		(pts
-			(xy 96.52 95.25) (xy 101.6 95.25)
+			(xy 96.52 93.98) (xy 101.6 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1027,7 +1027,7 @@
 	)
 	(bus
 		(pts
-			(xy 101.6 95.25) (xy 101.6 97.79)
+			(xy 101.6 93.98) (xy 101.6 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1099,7 +1099,7 @@
 	)
 	(hierarchical_label "CAN_TR{RXD TXD}"
 		(shape input)
-		(at 96.52 95.25 180)
+		(at 96.52 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1163,12 +1163,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "08fae2d8-6f12-441d-b681-386f0913a7a4")
+			(uuid "66dcc749-b58c-4d7f-ab7d-68f5e945e341")
 		)
 		(instances
 			(project "OrangePie"
 				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/4ef8679b-7d0c-4776-8ce3-817c4ec1763f"
 					(reference "#PWR026")
+					(unit 1)
+				)
+				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/90c85cbd-0f83-4bab-9a58-f576d03aa82a"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -1229,15 +1233,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "b240dd8f-4d33-4f27-9a82-9da690602986")
+			(uuid "ac2b9d43-dcd0-4aa5-b564-097c743236af")
 		)
 		(pin "2"
-			(uuid "0a4e2159-623b-48ee-a0e1-6bb3e3ac6324")
+			(uuid "999f214d-fba2-4e52-89aa-ff3dd9fd9312")
 		)
 		(instances
 			(project "OrangePie"
 				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/4ef8679b-7d0c-4776-8ce3-817c4ec1763f"
 					(reference "R8")
+					(unit 1)
+				)
+				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/90c85cbd-0f83-4bab-9a58-f576d03aa82a"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -1306,15 +1314,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "872acfc1-7f49-4c40-87d9-74f5f0c73d41")
+			(uuid "a1e15587-d324-4e86-b08b-845079589899")
 		)
 		(pin "2"
-			(uuid "e00c9877-8907-429d-b4b6-b51edd7de564")
+			(uuid "2d094a1c-8127-4b3f-8abb-65f6c83647be")
 		)
 		(instances
 			(project "OrangePie"
 				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/4ef8679b-7d0c-4776-8ce3-817c4ec1763f"
 					(reference "C18")
+					(unit 1)
+				)
+				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/90c85cbd-0f83-4bab-9a58-f576d03aa82a"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -1374,12 +1386,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "374d19ef-c2f5-4307-874a-103ee3a1cf3e")
+			(uuid "8978bcd6-7a27-49a3-a4f9-d75adc4bd54f")
 		)
 		(instances
 			(project "OrangePie"
 				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/4ef8679b-7d0c-4776-8ce3-817c4ec1763f"
 					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/90c85cbd-0f83-4bab-9a58-f576d03aa82a"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -1439,12 +1455,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea568f1d-5108-45e9-b25a-9203e8213b33")
+			(uuid "536c17ce-836b-436e-b7ec-d6924b5e4de9")
 		)
 		(instances
 			(project "OrangePie"
 				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/4ef8679b-7d0c-4776-8ce3-817c4ec1763f"
 					(reference "#PWR031")
+					(unit 1)
+				)
+				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/90c85cbd-0f83-4bab-9a58-f576d03aa82a"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -1525,36 +1545,40 @@
 			)
 		)
 		(pin "3"
-			(uuid "685e4fec-725e-4129-a3c9-b207042569cd")
+			(uuid "4263e879-f449-4621-bdf0-7b8fb3482e76")
 		)
 		(pin "4"
-			(uuid "a374cd93-94a8-4ce9-8d57-11193913e83b")
+			(uuid "c9475968-ba08-475a-9d8f-dbab032a8177")
 		)
 		(pin "2"
-			(uuid "20b7766f-2ab4-4454-8882-0dc4fcc53f82")
+			(uuid "d273d0d9-2673-4e76-820f-49d03d41072a")
 		)
 		(pin "5"
-			(uuid "ce177d0d-ce09-46a5-af57-039027081fee")
+			(uuid "0d0ba2d9-9f08-4499-b5a4-36b7e87d9e86")
 		)
 		(pin "8"
-			(uuid "72f539a5-a510-4709-bc89-0bd30668c7ab")
+			(uuid "4e4aa61a-056d-45c9-bb81-e163f400c27c")
 		)
 		(pin "1"
-			(uuid "f198beaa-ccae-4d8f-8b79-cc8683ad9463")
+			(uuid "18bb4529-3337-41f5-926c-1fb65ec7e0d9")
 		)
 		(pin "9"
-			(uuid "53880fc8-8c01-4151-a755-22289e2cad28")
+			(uuid "efefaf99-0874-4cd1-84e2-75364b4fb0db")
 		)
 		(pin "6"
-			(uuid "3b732d6e-180d-40b0-b3b0-266c14a713b7")
+			(uuid "de4922df-5f92-4a36-805f-5e6b9eaa14a2")
 		)
 		(pin "7"
-			(uuid "e6ec9688-7ec6-42ad-aaeb-183b6f6557cf")
+			(uuid "e327173f-a730-4deb-8d79-c4b0e437b211")
 		)
 		(instances
 			(project "OrangePie"
 				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/4ef8679b-7d0c-4776-8ce3-817c4ec1763f"
 					(reference "U4")
+					(unit 1)
+				)
+				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/90c85cbd-0f83-4bab-9a58-f576d03aa82a"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -1615,12 +1639,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "7069ec03-80c1-42b6-ae89-11682560b8ab")
+			(uuid "ffeb0c07-c038-41dc-83f1-2dc5ab5e7bef")
 		)
 		(instances
 			(project "OrangePie"
 				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/4ef8679b-7d0c-4776-8ce3-817c4ec1763f"
 					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/90c85cbd-0f83-4bab-9a58-f576d03aa82a"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -1680,12 +1708,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b1ac3e1-9b57-4ee5-80c4-400b529f6621")
+			(uuid "1099872d-9914-4f7c-99ea-75ba428fc258")
 		)
 		(instances
 			(project "OrangePie"
 				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/4ef8679b-7d0c-4776-8ce3-817c4ec1763f"
 					(reference "#PWR030")
+					(unit 1)
+				)
+				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/90c85cbd-0f83-4bab-9a58-f576d03aa82a"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -1745,12 +1777,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "5b8701a2-d6ee-487b-be8a-f3aacbe3d334")
+			(uuid "68adc9bb-e118-46b1-bc98-5e7986b449b6")
 		)
 		(instances
 			(project "OrangePie"
 				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/4ef8679b-7d0c-4776-8ce3-817c4ec1763f"
 					(reference "#PWR028")
+					(unit 1)
+				)
+				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/90c85cbd-0f83-4bab-9a58-f576d03aa82a"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -1820,15 +1856,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "1db17718-9ff1-4a78-95bb-3cf69ddd519d")
+			(uuid "b164f38f-8897-417d-a4ab-eb15b4a7053e")
 		)
 		(pin "2"
-			(uuid "71b72a06-55bc-4a22-a161-466473805515")
+			(uuid "2fac72ea-fddf-4a6e-ba49-5072133e58c3")
 		)
 		(instances
 			(project "OrangePie"
 				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/4ef8679b-7d0c-4776-8ce3-817c4ec1763f"
 					(reference "C19")
+					(unit 1)
+				)
+				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/90c85cbd-0f83-4bab-9a58-f576d03aa82a"
+					(reference "C21")
 					(unit 1)
 				)
 			)

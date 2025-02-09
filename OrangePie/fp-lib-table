@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "OrangePi Pro 5")(type "KiCad")(uri "F:/Projects/ModuCard-OrangePie/lib/OrangePi Pro 5.pretty")(options "")(descr ""))
+)
