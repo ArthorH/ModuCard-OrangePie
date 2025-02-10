@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "a60aaaaa-4241-4afc-8d68-a145c613db0f")
 	(paper "A4")
+	(title_block
+		(date "2025-02-10")
+		(rev "A")
+		(company "ModuCard System")
+	)
 	(lib_symbols
 		(symbol "Device:C_Polarized"
 			(pin_numbers hide)

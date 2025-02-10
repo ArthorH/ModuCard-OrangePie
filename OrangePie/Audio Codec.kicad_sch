@@ -6,9 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "PCM2704 USB SOUND OUTPUT")
-		(date "2025-02-08")
+		(date "2025-02-10")
 		(rev "A")
-		(company "Artem Horiunov")
+		(company "ModuCard System")
 		(comment 1 "DESIGNED IN POLAND")
 	)
 	(lib_symbols

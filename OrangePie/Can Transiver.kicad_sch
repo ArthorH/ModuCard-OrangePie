@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "85feb812-d06d-42fd-baed-dad788b93d79")
 	(paper "A4")
+	(title_block
+		(date "2025-02-10")
+		(rev "A")
+		(company "ModuCard System")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
@@ -1047,6 +1052,7 @@
 	)
 	(label "CAN_TR.TXD"
 		(at 110.49 100.33 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1057,6 +1063,7 @@
 	)
 	(label "CAN_TR_OUT.+"
 		(at 153.67 100.33 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1067,6 +1074,7 @@
 	)
 	(label "CAN_TR.RXD"
 		(at 110.49 102.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1077,6 +1085,7 @@
 	)
 	(label "CAN_TR_OUT.-"
 		(at 153.67 102.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

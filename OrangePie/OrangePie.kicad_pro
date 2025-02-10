@@ -622,6 +622,14 @@
     [
       "4d4eff6e-f620-4899-aa56-71482e8e558f",
       "USER LED AND BUTTON"
+    ],
+    [
+      "6795f84c-4c2f-4fb2-bd1b-dc83d61d75c6",
+      "CH340_DEBUG"
+    ],
+    [
+      "86d81324-cbad-4692-8b67-2c038a3e8215",
+      "Panel USB"
     ]
   ],
   "text_variables": {}
