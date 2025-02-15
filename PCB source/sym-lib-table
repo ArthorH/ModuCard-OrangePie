@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "orange_pi_5_pro")(type "KiCad")(uri "${KIPRJMOD}/lib/OrangePi Pro 5/orange_pi_5_pro.kicad_sym")(options "")(descr ""))
+  (lib (name "FixLed307")(type "KiCad")(uri "${KIPRJMOD}/lib/Fixled307/FixLed307.kicad_sym")(options "")(descr ""))
+  (lib (name "PCM2704CDBR")(type "KiCad")(uri "${KIPRJMOD}/lib/PCM2704/PCM2704CDBR.kicad_sym")(options "")(descr ""))
+  (lib (name "TL2243")(type "KiCad")(uri "${KIPRJMOD}/lib/TL2243/TL2243.kicad_sym")(options "")(descr ""))
+  (lib (name "2169890001")(type "KiCad")(uri "${KIPRJMOD}/lib/USB_C_Upright16pin/2169890001.kicad_sym")(options "")(descr ""))
+)

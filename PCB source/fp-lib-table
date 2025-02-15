@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "FixLed307")(type "KiCad")(uri "${KIPRJMOD}/lib/Fixled307/FixLed307.pretty")(options "")(descr ""))
+  (lib (name "OrangePi Pro 5")(type "KiCad")(uri "${KIPRJMOD}/lib/OrangePi Pro 5/OrangePi Pro 5.pretty")(options "")(descr ""))
+  (lib (name "TL2243")(type "KiCad")(uri "${KIPRJMOD}/lib/TL2243/TL2243.pretty")(options "")(descr ""))
+  (lib (name "USB_C_Upright16pin")(type "KiCad")(uri "${KIPRJMOD}/lib/USB_C_Upright16pin/USB_C_Upright16pin.pretty")(options "")(descr ""))
+)
