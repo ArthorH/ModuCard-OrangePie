@@ -13,6 +13,18 @@
 		(comment 2 "DESIGNED IN POLAND")
 	)
 	(lib_symbols)
+	(junction
+		(at 67.31 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e336299-9cbd-4008-9cb7-30f5e07465f9")
+	)
+	(junction
+		(at 135.89 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e334cbc-9f44-4316-a4ef-c63f505c716f")
+	)
 	(no_connect
 		(at 50.8 45.72)
 		(uuid "3d81376a-a0ca-4da3-b9ad-51ea991c4da2")
@@ -32,6 +44,26 @@
 	(no_connect
 		(at 147.32 57.15)
 		(uuid "e571740c-333e-4313-8283-cf6ff22dbf54")
+	)
+	(wire
+		(pts
+			(xy 135.89 142.24) (xy 147.32 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04d149b9-19b4-411a-8c6d-0a3aab5c0930")
+	)
+	(wire
+		(pts
+			(xy 123.19 142.24) (xy 135.89 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "230f469a-3fb3-4380-829c-7cde5036a94a")
 	)
 	(bus
 		(pts
@@ -53,6 +85,16 @@
 		)
 		(uuid "3a532960-19ce-48ea-a401-913951b90027")
 	)
+	(wire
+		(pts
+			(xy 135.89 152.4) (xy 135.89 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40709e72-8310-4e58-95ec-89ee47aa9734")
+	)
 	(bus
 		(pts
 			(xy 50.8 106.68) (xy 190.5 106.68)
@@ -62,6 +104,16 @@
 			(type default)
 		)
 		(uuid "4187302e-2684-4303-af5a-028d2bccae27")
+	)
+	(wire
+		(pts
+			(xy 274.32 133.35) (xy 279.4 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50de5aa6-7817-4257-abf4-5fdb8ff08ed1")
 	)
 	(wire
 		(pts
@@ -75,13 +127,13 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 53.34) (xy 240.03 53.34)
+			(xy 232.41 133.35) (xy 240.03 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d519efc-bd51-49f1-b207-61e1f5334d26")
+		(uuid "669d69fc-9600-4eef-a8fc-60fe878741a8")
 	)
 	(wire
 		(pts
@@ -95,13 +147,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 120.65) (xy 104.14 120.65)
+			(xy 279.4 158.75) (xy 67.31 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7826de45-c6cb-4d90-96ba-d677c5789459")
+		(uuid "7762fb08-87ec-46de-8247-720279388b33")
 	)
 	(bus
 		(pts
@@ -125,23 +177,33 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 138.43) (xy 147.32 138.43)
+			(xy 190.5 135.89) (xy 185.42 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2650a68-48a4-49ac-9406-dff116465684")
+		(uuid "9266bd3e-cc41-4ad0-a209-2cb6c1912fff")
 	)
 	(wire
 		(pts
-			(xy 140.97 120.65) (xy 147.32 120.65)
+			(xy 185.42 152.4) (xy 135.89 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a79b40d3-a158-4c04-a32a-09c7cf002d3a")
+		(uuid "a2e9b1fc-e1e6-415f-ae72-0658cc07321c")
+	)
+	(wire
+		(pts
+			(xy 50.8 138.43) (xy 67.31 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d98b9d-81d5-4cb4-b205-f4b3fbdc5973")
 	)
 	(bus
 		(pts
@@ -153,6 +215,26 @@
 		)
 		(uuid "ab18f7c2-4444-486c-bf9d-6a61dead724c")
 	)
+	(wire
+		(pts
+			(xy 50.8 120.65) (xy 147.32 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae67c11d-4c4d-46b8-99ad-f25cdbfb2c10")
+	)
+	(wire
+		(pts
+			(xy 185.42 135.89) (xy 185.42 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0877e9c-df88-4413-9352-0b626d8c7742")
+	)
 	(bus
 		(pts
 			(xy 181.61 55.88) (xy 190.5 55.88)
@@ -162,6 +244,26 @@
 			(type default)
 		)
 		(uuid "b569bddb-7007-462c-a185-21624fa40dc1")
+	)
+	(wire
+		(pts
+			(xy 67.31 138.43) (xy 86.36 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1b1c4c9-b437-4e49-ba7e-20ab45d5bbac")
+	)
+	(wire
+		(pts
+			(xy 67.31 158.75) (xy 67.31 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c312709b-0bed-4336-88a3-af6ba70162c0")
 	)
 	(bus
 		(pts
@@ -215,13 +317,23 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 127) (xy 147.32 127)
+			(xy 123.19 135.89) (xy 147.32 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6032b33-2e03-4788-8873-bd9acce7411d")
+		(uuid "d8432518-ae1c-49b1-a5f5-f80fad837b0e")
+	)
+	(wire
+		(pts
+			(xy 279.4 133.35) (xy 279.4 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e30ab72b-7480-4306-8b98-fa622c86f95a")
 	)
 	(wire
 		(pts
@@ -264,7 +376,7 @@
 			)
 		)
 		(pin "BUCK_IN" input
-			(at 147.32 120.65 180)
+			(at 147.32 135.89 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -274,7 +386,7 @@
 			(uuid "b7d3ee64-9ada-4cac-a294-fb289b15fd3d")
 		)
 		(pin "STDBY_IN" input
-			(at 147.32 138.43 180)
+			(at 147.32 120.65 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -284,7 +396,7 @@
 			(uuid "4e809a70-55b6-42d0-b091-1a3c58f16573")
 		)
 		(pin "~{STDBY EN}" input
-			(at 147.32 127 180)
+			(at 147.32 142.24 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -536,16 +648,6 @@
 			)
 		)
 		(pin "12V out" input
-			(at 50.8 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "4651c799-15d2-485c-bf1b-1ea730d48de3")
-		)
-		(pin "STDBY OUT" input
 			(at 50.8 138.43 0)
 			(effects
 				(font
@@ -553,7 +655,7 @@
 				)
 				(justify right)
 			)
-			(uuid "9e3aa3d6-d24c-41b6-a7f4-375a59c72814")
+			(uuid "4651c799-15d2-485c-bf1b-1ea730d48de3")
 		)
 		(pin "GPIOC[0..15]" input
 			(at 50.8 49.53 0)
@@ -574,16 +676,6 @@
 				(justify right)
 			)
 			(uuid "47fe6d4d-be0d-41cf-b354-427a272aec6c")
-		)
-		(pin "GPIOR[0..15]" input
-			(at 50.8 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "7196dde6-4f6d-43f7-94f1-21ebe2058460")
 		)
 		(pin "CAN2_TR_OUT{CAN}" input
 			(at 50.8 64.77 0)
@@ -614,6 +706,26 @@
 				(justify right)
 			)
 			(uuid "8e113129-0e65-409a-aac7-0feead7733ad")
+		)
+		(pin "5v_STDBY" input
+			(at 50.8 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4f91f499-8720-478c-a342-52ec8a32f753")
+		)
+		(pin "GPIOR[0..13]" input
+			(at 50.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8cb517fd-f4c8-454d-b95b-0301c4abec5e")
 		)
 		(instances
 			(project "OrangePie"
@@ -886,7 +998,7 @@
 			(uuid "661e109e-e418-40bb-8abd-1f6bad1a350e")
 		)
 		(pin "FAN_PWM" output
-			(at 232.41 53.34 0)
+			(at 232.41 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -964,6 +1076,16 @@
 				(justify right)
 			)
 			(uuid "45174e0e-8b5e-42ff-b53f-3706f37eabbd")
+		)
+		(pin "BUCK_EN" input
+			(at 190.5 135.89 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ad906d94-5582-4f5b-a200-7d12c6282fd1")
 		)
 		(instances
 			(project "OrangePie"
@@ -1062,7 +1184,7 @@
 		)
 	)
 	(sheet
-		(at 240.03 40.64)
+		(at 240.03 120.65)
 		(size 34.29 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -1074,7 +1196,7 @@
 		)
 		(uuid "ddd125ab-d3f0-4627-8bf0-c5c0a9168cb7")
 		(property "Sheetname" "FAN controller"
-			(at 240.03 39.9284 0)
+			(at 240.03 119.9384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1083,7 +1205,7 @@
 			)
 		)
 		(property "Sheetfile" "FAN controller.kicad_sch"
-			(at 240.03 66.6246 0)
+			(at 240.03 146.6346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1092,7 +1214,7 @@
 			)
 		)
 		(pin "FAN_PWM" input
-			(at 240.03 53.34 180)
+			(at 240.03 133.35 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1100,6 +1222,16 @@
 				(justify left)
 			)
 			(uuid "8726bfff-079b-4601-b24c-076dc4b03b4e")
+		)
+		(pin "12V_IN" input
+			(at 274.32 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b746b12e-b6dd-4f71-b7ed-91c4b3206d4c")
 		)
 		(instances
 			(project "OrangePie"
@@ -1110,7 +1242,7 @@
 		)
 	)
 	(sheet
-		(at 104.14 115.57)
+		(at 86.36 130.81)
 		(size 36.83 15.24)
 		(fields_autoplaced yes)
 		(stroke
@@ -1122,7 +1254,7 @@
 		)
 		(uuid "fa68c879-ed97-450e-814c-4bbcc113b22b")
 		(property "Sheetname" "5v buck"
-			(at 104.14 114.8584 0)
+			(at 86.36 130.0984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1131,7 +1263,7 @@
 			)
 		)
 		(property "Sheetfile" "5v buck.kicad_sch"
-			(at 104.14 131.3946 0)
+			(at 86.36 146.6346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1140,7 +1272,7 @@
 			)
 		)
 		(pin "V_{IN}" input
-			(at 104.14 120.65 180)
+			(at 86.36 138.43 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1150,7 +1282,7 @@
 			(uuid "b8abae16-d4d4-40cf-b51f-9308c2498cc3")
 		)
 		(pin "Pgood" input
-			(at 140.97 127 0)
+			(at 123.19 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1160,7 +1292,7 @@
 			(uuid "15c3c415-0138-48fd-94ef-b8e9313a5f52")
 		)
 		(pin "BUCK_OUT" input
-			(at 140.97 120.65 0)
+			(at 123.19 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)

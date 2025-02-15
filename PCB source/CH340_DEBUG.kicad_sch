@@ -1211,8 +1211,32 @@
 		(uuid "f5ad1743-46b7-4219-b37d-a347e4fefc93")
 	)
 	(no_connect
+		(at 143.51 109.22)
+		(uuid "052e6aa1-38c2-4585-948e-93321a9c81bd")
+	)
+	(no_connect
+		(at 143.51 101.6)
+		(uuid "28b187af-d92b-4859-84db-0caed103131e")
+	)
+	(no_connect
+		(at 143.51 99.06)
+		(uuid "2cc458f6-c39d-4062-b3be-354da5a7a80a")
+	)
+	(no_connect
+		(at 143.51 106.68)
+		(uuid "461fd04d-ea77-4fae-8543-5ea413fec444")
+	)
+	(no_connect
+		(at 143.51 104.14)
+		(uuid "530668a7-df7f-46e5-89fb-0190afa18dbf")
+	)
+	(no_connect
 		(at 123.19 93.98)
 		(uuid "88fc3d02-a167-4f4f-9381-548b72d44c9d")
+	)
+	(no_connect
+		(at 143.51 111.76)
+		(uuid "8ecdca14-f812-4736-832a-d03f2f47a06e")
 	)
 	(bus_entry
 		(at 86.36 104.14)
@@ -1701,28 +1725,6 @@
 		)
 		(uuid "7b64276d-7398-461a-8ef5-509d90ec6b02")
 	)
-	(label "TXD"
-		(at 160.02 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3ddc44d1-df8e-4f27-aeaa-af009fa82d73")
-	)
-	(label "RXD"
-		(at 160.02 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6e8be060-fcad-43db-806f-f53f73bc6ff3")
-	)
 	(label "UART_DEBUG.RX"
 		(at 179.07 95.25 0)
 		(fields_autoplaced yes)
@@ -1734,7 +1736,7 @@
 		)
 		(uuid "a7a3633f-dbf1-4f3d-8f56-b1e8e60e26aa")
 	)
-	(label "FRONT_PANEL.D-"
+	(label "FRONT_PANEL.-"
 		(at 91.44 101.6 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1745,7 +1747,7 @@
 		)
 		(uuid "e2da2152-8dfc-4b98-83be-5301d3e8ea7d")
 	)
-	(label "FRONT_PANEL.D+"
+	(label "FRONT_PANEL.+"
 		(at 91.44 99.06 0)
 		(fields_autoplaced yes)
 		(effects

@@ -3285,7 +3285,7 @@
 		)
 		(uuid "ff75e6ab-9a20-4ca8-b63f-d8f1c2ed5bc4")
 	)
-	(label "FRONT_PANEL.D+"
+	(label "FRONT_PANEL.+"
 		(at 194.31 99.06 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3318,7 +3318,7 @@
 		)
 		(uuid "53df8d18-ef90-4b28-9657-fd75fd04e2db")
 	)
-	(label "FRONT_PANEL.D-"
+	(label "FRONT_PANEL.-"
 		(at 194.31 101.6 180)
 		(fields_autoplaced yes)
 		(effects

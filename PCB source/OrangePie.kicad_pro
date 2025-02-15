@@ -216,7 +216,14 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_to_pin|1219200|1358900|18fa6f8e-e041-4773-ba9b-c11d43c69059|eb1b0e2b-5b31-428f-b23b-b27dbd338f8e|/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/d2960c43-83cc-4db9-89f3-db63fa692eb6|/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/d2960c43-83cc-4db9-89f3-db63fa692eb6|/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/173701d7-f398-4eb9-8378-88f17944d65b",
+      "pin_to_pin|1435100|1358900|2a31b29e-b9b6-46d5-82e8-e124ec1f618e|18fa6f8e-e041-4773-ba9b-c11d43c69059|/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/d2960c43-83cc-4db9-89f3-db63fa692eb6|/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/d2960c43-83cc-4db9-89f3-db63fa692eb6|/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/d2960c43-83cc-4db9-89f3-db63fa692eb6",
+      "pin_to_pin|1435100|1358900|2a31b29e-b9b6-46d5-82e8-e124ec1f618e|eb1b0e2b-5b31-428f-b23b-b27dbd338f8e|/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/d2960c43-83cc-4db9-89f3-db63fa692eb6|/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/d2960c43-83cc-4db9-89f3-db63fa692eb6|/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/173701d7-f398-4eb9-8378-88f17944d65b",
+      "pin_to_pin|1473200|1358900|ad31441f-e3ed-43a8-aa38-4df1d8c44efd|18fa6f8e-e041-4773-ba9b-c11d43c69059|/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/d2960c43-83cc-4db9-89f3-db63fa692eb6|/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/d2960c43-83cc-4db9-89f3-db63fa692eb6|/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/d2960c43-83cc-4db9-89f3-db63fa692eb6",
+      "pin_to_pin|1473200|1358900|ad31441f-e3ed-43a8-aa38-4df1d8c44efd|2a31b29e-b9b6-46d5-82e8-e124ec1f618e|/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/d2960c43-83cc-4db9-89f3-db63fa692eb6|/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/d2960c43-83cc-4db9-89f3-db63fa692eb6|/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/d2960c43-83cc-4db9-89f3-db63fa692eb6",
+      "pin_to_pin|1473200|1358900|ad31441f-e3ed-43a8-aa38-4df1d8c44efd|eb1b0e2b-5b31-428f-b23b-b27dbd338f8e|/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/d2960c43-83cc-4db9-89f3-db63fa692eb6|/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/d2960c43-83cc-4db9-89f3-db63fa692eb6|/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/173701d7-f398-4eb9-8378-88f17944d65b"
+    ],
     "meta": {
       "version": 0
     },
@@ -228,7 +235,7 @@
         0,
         0,
         0,
-        1,
+        0,
         0,
         0,
         0,
@@ -306,7 +313,7 @@
         2
       ],
       [
-        1,
+        0,
         1,
         1,
         1,
