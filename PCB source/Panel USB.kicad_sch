@@ -3285,8 +3285,8 @@
 		)
 		(uuid "ff75e6ab-9a20-4ca8-b63f-d8f1c2ed5bc4")
 	)
-	(label "FRONT_PANEL.+"
-		(at 194.31 99.06 180)
+	(label "FRONT_PANEL.D+"
+		(at 193.04 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3294,7 +3294,18 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "029c74b8-541f-480f-831c-bd1ccbd0fd94")
+		(uuid "00a8635b-adf7-41dc-8b47-5729c9a741b3")
+	)
+	(label "FRONT_PANEL.D-"
+		(at 193.04 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "437ff890-1bb4-4a0a-bee0-5b1c16c0a09c")
 	)
 	(label "VBUS_IN"
 		(at 133.35 69.85 0)
@@ -3307,7 +3318,7 @@
 		)
 		(uuid "53aefb2a-b012-4379-b83e-d77fef7be248")
 	)
-	(label "USB_IN.+"
+	(label "USB_IN.D+"
 		(at 140.97 88.9 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3318,18 +3329,7 @@
 		)
 		(uuid "53df8d18-ef90-4b28-9657-fd75fd04e2db")
 	)
-	(label "FRONT_PANEL.-"
-		(at 194.31 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "73f91dfc-56b2-44af-857d-c26c55ef35eb")
-	)
-	(label "USB_IN.-"
+	(label "USB_IN.D-"
 		(at 140.97 83.82 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4558,119 +4558,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Extended:Connector, USB-TYPE-C-16P")
-		(at 96.52 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e04bd58-88df-4e4f-a247-18855931ca45")
-		(property "Reference" "J4"
-			(at 96.52 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Connector, USB-TYPE-C-16P"
-			(at 99.06 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "USB_C_Upright16pin:MOLEX_2169890001"
-			(at 96.52 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20220920/0EF8F885FCCEA71F60E9E85152155021.pdf"
-			(at 94.234 84.963 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "3A 1 Horizontal attachment 16P Female -25℃~+85℃ Type-C SMD USB Connectors ROHS"
-			(at 99.06 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2927039"
-			(at 99.06 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A8"
-			(uuid "a75f967e-d35b-4323-8274-e1906b51701c")
-		)
-		(pin "B6"
-			(uuid "780c5933-830c-4b54-8ecb-0a849a040971")
-		)
-		(pin "B5"
-			(uuid "245def48-fd59-4f40-ab9d-016b2943b841")
-		)
-		(pin "A5"
-			(uuid "181345e0-aabf-49e8-af2e-76d14f859a63")
-		)
-		(pin "A7"
-			(uuid "fadd1f56-c9b4-4a56-aa4b-f80c941cd7d9")
-		)
-		(pin "A6"
-			(uuid "448586a4-cdb9-400e-871c-0c5bce35c2b7")
-		)
-		(pin "B7"
-			(uuid "4667f914-217d-4cf1-8dce-6861ffe2da00")
-		)
-		(pin "B8"
-			(uuid "306cfafe-c76d-45be-99d6-72ccc255ee8e")
-		)
-		(pin "S1"
-			(uuid "d15bb6ba-f437-44a9-a525-44c7b655322b")
-		)
-		(pin "A12B1"
-			(uuid "e5ce9377-4f90-4358-a427-e3d97efd81a3")
-		)
-		(pin "B9A4"
-			(uuid "32602327-7896-483f-bb71-11b994d7eae1")
-		)
-		(pin "B12A1"
-			(uuid "37c7e26a-6f43-40d3-8ed4-08d60f870d03")
-		)
-		(pin "A9B4"
-			(uuid "bfafda8d-f521-4359-a4ce-598ca9824cec")
-		)
-		(instances
-			(project "OrangePie"
-				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/86d81324-cbad-4692-8b67-2c038a3e8215"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 96.52 125.73 0)
 		(unit 1)
@@ -4951,6 +4838,119 @@
 			(project "OrangePie"
 				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/86d81324-cbad-4692-8b67-2c038a3e8215"
 					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Extended:Connector, USB-TYPE-C-16P")
+		(at 96.52 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c20875ba-4bb0-4d30-8d7f-cbc427b069fa")
+		(property "Reference" "J5"
+			(at 96.52 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Connector, USB-TYPE-C-16P"
+			(at 99.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:TYPE-C-SMD_HX-TYPE-C-16PIN"
+			(at 96.52 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20220920/0EF8F885FCCEA71F60E9E85152155021.pdf"
+			(at 94.234 84.963 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A 1 Horizontal attachment 16P Female -25℃~+85℃ Type-C SMD USB Connectors ROHS"
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2927039"
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A6"
+			(uuid "84ac3610-40f7-4394-b778-65f2766a3a82")
+		)
+		(pin "A12B1"
+			(uuid "37c674cb-b3d0-433b-bbdc-13f1023fb26c")
+		)
+		(pin "S1"
+			(uuid "55117928-9086-47f6-89f5-47072526f7ac")
+		)
+		(pin "B8"
+			(uuid "fdcbc1f6-a5b9-4472-aa05-4b38aa47d8f9")
+		)
+		(pin "B12A1"
+			(uuid "04a5e961-c32d-443c-a9c2-8d455d1d2235")
+		)
+		(pin "A9B4"
+			(uuid "11db0ca8-7bb4-40e3-b428-3b4a79e63814")
+		)
+		(pin "A7"
+			(uuid "b765b98e-deac-4575-b60e-17d8f29afd56")
+		)
+		(pin "A5"
+			(uuid "6aeead60-6bc0-4edc-b5f3-1b75eabdcfc5")
+		)
+		(pin "A8"
+			(uuid "6ddf0d39-76fc-4fa2-b4f8-3bdfe29b0a1b")
+		)
+		(pin "B6"
+			(uuid "acd83959-bb35-4e3b-8cb6-9c08282b3472")
+		)
+		(pin "B7"
+			(uuid "d2a7b3ae-f115-407b-9398-bc1da8712f29")
+		)
+		(pin "B9A4"
+			(uuid "a93ddede-fc0e-4d2b-8253-3cc54afbfdff")
+		)
+		(pin "B5"
+			(uuid "4929d347-9164-472f-9fcc-d7cf4671a1d8")
+		)
+		(instances
+			(project ""
+				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/86d81324-cbad-4692-8b67-2c038a3e8215"
+					(reference "J5")
 					(unit 1)
 				)
 			)

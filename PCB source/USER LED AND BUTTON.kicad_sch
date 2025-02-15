@@ -4088,13 +4088,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "cd68d43c-2798-4674-8e3a-a871a71022ea")
+			(uuid "cd68d43c-2798-4674-8e3a-a871a71022eb")
 		)
 		(pin "3"
 			(uuid "586c0cb6-e14c-4825-9b09-4bf7405674c3")
 		)
 		(pin "2"
-			(uuid "229533ff-d261-4b90-8e03-b3dc02853d17")
+			(uuid "229533ff-d261-4b90-8e03-b3dc02853d18")
 		)
 		(pin "4"
 			(uuid "b936af2c-3d69-4f96-88d0-9020d4789778")
@@ -5497,13 +5497,13 @@
 			(uuid "951e3efc-032d-4451-a2e7-5f1cb598fa50")
 		)
 		(pin "3"
-			(uuid "586c0cb6-e14c-4825-9b09-4bf7405674c2")
+			(uuid "586c0cb6-e14c-4825-9b09-4bf7405674c4")
 		)
 		(pin "2"
 			(uuid "46cc6d2c-91d7-4d6b-b7cc-3ce01b66d0fa")
 		)
 		(pin "4"
-			(uuid "b936af2c-3d69-4f96-88d0-9020d4789777")
+			(uuid "b936af2c-3d69-4f96-88d0-9020d4789779")
 		)
 		(instances
 			(project "OrangePie"

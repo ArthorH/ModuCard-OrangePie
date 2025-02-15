@@ -4015,7 +4015,7 @@
 		)
 		(uuid "4ae8628f-86fe-4695-b3fb-ae7486af702e")
 	)
-	(label "USB_CAN.-"
+	(label "USB_CAN.D-"
 		(at 196.85 93.98 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4103,7 +4103,7 @@
 		)
 		(uuid "ca42469a-056e-40e7-bc89-2a6d3c5c3d74")
 	)
-	(label "USB_CAN.+"
+	(label "USB_CAN.D+"
 		(at 196.85 96.52 180)
 		(fields_autoplaced yes)
 		(effects

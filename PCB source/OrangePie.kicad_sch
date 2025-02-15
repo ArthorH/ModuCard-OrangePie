@@ -95,16 +95,6 @@
 		)
 		(uuid "40709e72-8310-4e58-95ec-89ee47aa9734")
 	)
-	(bus
-		(pts
-			(xy 50.8 106.68) (xy 190.5 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4187302e-2684-4303-af5a-028d2bccae27")
-	)
 	(wire
 		(pts
 			(xy 274.32 133.35) (xy 279.4 133.35)
@@ -134,6 +124,26 @@
 			(type default)
 		)
 		(uuid "669d69fc-9600-4eef-a8fc-60fe878741a8")
+	)
+	(bus
+		(pts
+			(xy 190.5 107.95) (xy 50.8 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff00d31-8d64-49dc-a56c-82c0ec505716")
+	)
+	(bus
+		(pts
+			(xy 181.61 55.88) (xy 190.5 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "702ac477-fbfa-4cac-8427-38b866eb19c4")
 	)
 	(wire
 		(pts
@@ -234,16 +244,6 @@
 			(type default)
 		)
 		(uuid "b0877e9c-df88-4413-9352-0b626d8c7742")
-	)
-	(bus
-		(pts
-			(xy 181.61 55.88) (xy 190.5 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b569bddb-7007-462c-a185-21624fa40dc1")
 	)
 	(wire
 		(pts
@@ -698,7 +698,7 @@
 			(uuid "2c351b30-0272-4568-82d8-69a57fb082b4")
 		)
 		(pin "USB_DEBUG{USB}" input
-			(at 50.8 106.68 0)
+			(at 50.8 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -988,7 +988,7 @@
 			(uuid "88e08367-c4f8-46b9-bf74-320bede9bab5")
 		)
 		(pin "USB_SBC{USB}" input
-			(at 190.5 55.88 180)
+			(at 190.5 107.95 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1048,7 +1048,7 @@
 			(uuid "16050b0d-c210-4cde-be48-4dab6b739fa8")
 		)
 		(pin "USB_OUT{USB}" input
-			(at 190.5 106.68 180)
+			(at 190.5 55.88 180)
 			(effects
 				(font
 					(size 1.27 1.27)

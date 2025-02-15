@@ -993,7 +993,7 @@
 		)
 	)
 	(bus_alias "CAN"
-		(members "+" "-")
+		(members "C+" "C-")
 	)
 	(junction
 		(at 149.86 91.44)
@@ -1324,7 +1324,7 @@
 		)
 		(uuid "2218e321-e19a-4564-8380-f1864d30addd")
 	)
-	(label "CAN_TR_OUT.+"
+	(label "CAN_TR_OUT.C+"
 		(at 153.67 100.33 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1346,7 +1346,7 @@
 		)
 		(uuid "bbbebd15-80e1-4ab6-ba23-8cab1f24df51")
 	)
-	(label "CAN_TR_OUT.-"
+	(label "CAN_TR_OUT.C-"
 		(at 153.67 102.87 0)
 		(fields_autoplaced yes)
 		(effects

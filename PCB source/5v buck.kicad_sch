@@ -4378,6 +4378,7 @@
 	)
 	(label "V_{IN}"
 		(at 110.49 90.17 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
