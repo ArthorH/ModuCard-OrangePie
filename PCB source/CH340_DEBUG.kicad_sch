@@ -2014,6 +2014,7 @@
 	)
 	(label "TXD"
 		(at 148.59 91.44 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2024,6 +2025,7 @@
 	)
 	(label "RXD"
 		(at 148.59 93.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
