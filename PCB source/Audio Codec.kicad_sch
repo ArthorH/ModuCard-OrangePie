@@ -5278,91 +5278,6 @@
 		(uuid "b8f00bb7-db73-49b2-a9b4-9733e7917179")
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 177.8 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0461e719-0342-44fb-baac-be8ed9b4186c")
-		(property "Reference" "C40"
-			(at 176.784 89.662 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47uF"
-			(at 176.784 92.202 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
-			(at 181.61 85.3948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 177.8 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" " C90276"
-			(at 177.8 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "VT1V470M0605"
-			(at 177.8 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e42f0a2-54db-488e-9b1c-823bc76323cb")
-		)
-		(pin "2"
-			(uuid "ee608e84-6ecd-49dc-a511-16fc0c275ec9")
-		)
-		(instances
-			(project ""
-				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/5c90feeb-24b4-4351-a3fd-4dbcb45d386c"
-					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 96.52 160.02 0)
 		(unit 1)
@@ -8202,6 +8117,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 177.8 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f59ab98-f238-4754-bd9b-cd455e413fed")
+		(property "Reference" "C2"
+			(at 181.61 85.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47uF"
+			(at 181.61 87.884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
+			(at 181.61 85.3948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 177.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C90276"
+			(at 177.8 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "VT1V470M0605"
+			(at 177.8 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb137380-605e-4bc0-b872-375d1eef85fe")
+		)
+		(pin "2"
+			(uuid "eacf83c5-2029-4a62-a8ef-23623c9e4d0f")
+		)
+		(instances
+			(project "OrangePie"
+				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/5c90feeb-24b4-4351-a3fd-4dbcb45d386c"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,1uF")
 		(at 190.5 139.7 90)
 		(unit 1)
@@ -8418,7 +8418,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
 			(at 81.28 97.4852 0)
 			(effects
 				(font
