@@ -205,7 +205,7 @@
 			(type default)
 		)
 		(fill none)
-		(layer "F.CrtYd")
+		(layer "Dwgs.User")
 		(uuid "c2a9274e-6eb2-408c-9735-1a41c4c30d44")
 	)
 	(fp_arc
@@ -216,8 +216,19 @@
 			(width 0.05)
 			(type default)
 		)
-		(layer "F.CrtYd")
+		(layer "Dwgs.User")
 		(uuid "407d411a-9e04-46fb-a3be-0195b35e2f8d")
+	)
+	(fp_rect
+		(start -2.415082 -6.192045)
+		(end 2.384918 4.248554)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "a6a72a71-fa2d-4e47-bc67-ed26e2998e4c")
 	)
 	(fp_text user "-"
 		(at 1.1 -0.9 0)
@@ -293,6 +304,17 @@
 		(uuid "ea531949-d76c-4c46-96e1-c1ca58bc9d5e")
 		(members "3a96ebc2-6d05-46b6-a64a-1e6c39019c50" "3f19a913-a9f3-4a56-8607-3720ca08a251"
 			"d5a1a555-a500-4098-a232-af78085f0802" "f4d41875-4c05-48c8-945a-11fc010ee37d"
+		)
+	)
+	(model "${KIPRJMOD}/lib/kicad-3d-models/FIX-LED-307.step"
+		(offset
+			(xyz 0 0.3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
 		)
 	)
 )
