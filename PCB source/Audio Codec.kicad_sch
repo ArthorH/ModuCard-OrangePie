@@ -3621,6 +3621,273 @@
 				)
 			)
 		)
+		(symbol "PCM_JLCPCB-Resistors:0402,22Ω"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.778 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "22Ω"
+				(at 0 0 90)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:R_0402"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF220JTCE_C25092.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±100ppm/°C 22Ω 0402 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C25092"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "2497993"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.004USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Minimum Qty" "20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Attrition Qty" "10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Basic Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Resistors,Chip Resistor - Surface Mount"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "0402WGF220JTCE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Resistance" "22Ω"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power(Watts)" "62.5mW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "Thick Film Resistors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Overload Voltage (Max)" "50V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Operating Temperature Range" "-55°C~+155°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "±1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" "±100ppm/°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402,22Ω_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402,22Ω_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -3992,12 +4259,6 @@
 		(uuid "3aa93b6e-ea2e-4698-a558-3eff6d57f541")
 	)
 	(junction
-		(at 57.15 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e0117d3-578e-44c3-9679-83a2c8056ff4")
-	)
-	(junction
 		(at 162.56 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4014,6 +4275,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5350a74f-a066-4a73-b356-c68c4d933fb5")
+	)
+	(junction
+		(at 68.58 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dbf3dbb-5cc4-473d-97fe-d47bcae46257")
 	)
 	(junction
 		(at 199.39 135.89)
@@ -4082,7 +4349,7 @@
 		(uuid "f0343f73-aacb-45c8-8816-a3084d18559f")
 	)
 	(bus_entry
-		(at 44.45 104.14)
+		(at 35.56 104.14)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -4091,7 +4358,7 @@
 		(uuid "38e879fe-ff9e-414a-8de5-50013d679d74")
 	)
 	(bus_entry
-		(at 44.45 101.6)
+		(at 35.56 101.6)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -4101,7 +4368,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 100.33) (xy 57.15 104.14)
+			(xy 68.58 100.33) (xy 68.58 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4168,6 +4435,16 @@
 			(type default)
 		)
 		(uuid "0c6bc021-5d72-47d7-b266-2d9213a9d3e1")
+	)
+	(wire
+		(pts
+			(xy 66.04 104.14) (xy 68.58 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f7f2ccb-d61a-4d2b-a545-23d9a497aba9")
 	)
 	(wire
 		(pts
@@ -4241,7 +4518,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 96.52) (xy 105.41 96.52)
+			(xy 95.25 96.52) (xy 105.41 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4281,7 +4558,7 @@
 	)
 	(bus
 		(pts
-			(xy 44.45 104.14) (xy 44.45 105.41)
+			(xy 35.56 104.14) (xy 35.56 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4451,16 +4728,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 104.14) (xy 105.41 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58a7696b-bba6-4a69-8dbf-d04dfd1d98c1")
-	)
-	(wire
-		(pts
 			(xy 213.36 63.5) (xy 213.36 81.28)
 		)
 		(stroke
@@ -4501,7 +4768,7 @@
 	)
 	(bus
 		(pts
-			(xy 44.45 101.6) (xy 44.45 104.14)
+			(xy 35.56 101.6) (xy 35.56 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4671,7 +4938,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 104.14) (xy 57.15 104.14)
+			(xy 38.1 104.14) (xy 58.42 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4761,7 +5028,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 106.68) (xy 105.41 106.68)
+			(xy 38.1 106.68) (xy 58.42 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4871,7 +5138,7 @@
 	)
 	(bus
 		(pts
-			(xy 44.45 96.52) (xy 44.45 101.6)
+			(xy 35.56 96.52) (xy 35.56 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4911,7 +5178,7 @@
 	)
 	(bus
 		(pts
-			(xy 40.64 96.52) (xy 44.45 96.52)
+			(xy 31.75 96.52) (xy 35.56 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4971,6 +5238,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 106.68) (xy 105.41 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6d6547a-067f-4b7a-9471-2b30b2b6e0c0")
+	)
+	(wire
+		(pts
 			(xy 179.07 127) (xy 186.69 127)
 		)
 		(stroke
@@ -4991,7 +5268,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 96.52) (xy 81.28 96.52)
+			(xy 85.09 96.52) (xy 87.63 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5001,7 +5278,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 88.9) (xy 57.15 92.71)
+			(xy 68.58 88.9) (xy 68.58 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5028,6 +5305,16 @@
 			(type default)
 		)
 		(uuid "ec44f401-18e4-4ef1-8a60-c6960856bccb")
+	)
+	(wire
+		(pts
+			(xy 68.58 104.14) (xy 105.41 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec8f2f65-4372-4a81-af04-f35facd9d878")
 	)
 	(wire
 		(pts
@@ -5156,7 +5443,7 @@
 		(uuid "3947c75f-7e0a-4cd6-83f8-6f545cc20730")
 	)
 	(label "USB_AUDIO.D-"
-		(at 63.5 106.68 0)
+		(at 41.91 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5189,7 +5476,7 @@
 		(uuid "5e1e2353-0e7b-4530-a7fc-260984a1272f")
 	)
 	(label "VDD_{int}"
-		(at 57.15 88.9 0)
+		(at 68.58 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5222,7 +5509,7 @@
 		(uuid "a6f3e2da-8563-424f-b9b7-7d91934dec66")
 	)
 	(label "USB_AUDIO.D+"
-		(at 63.5 104.14 0)
+		(at 41.91 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5231,6 +5518,17 @@
 			(justify left bottom)
 		)
 		(uuid "aa420c14-ee01-40c6-8f8b-ac75184f621b")
+	)
+	(label "USB_AUDIOF.D+"
+		(at 77.47 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1d3378f-690e-461c-99b5-afda07b60074")
 	)
 	(label "VDD_{int}"
 		(at 96.52 88.9 0)
@@ -5254,6 +5552,17 @@
 		)
 		(uuid "db0e4921-87ea-442b-8159-d8ead4d6234b")
 	)
+	(label "USB_AUDIOF.D-"
+		(at 77.47 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6f40eb0-57e6-427a-8ae5-e200ad459f32")
+	)
 	(label "VDD_{int}"
 		(at 179.07 127 0)
 		(fields_autoplaced yes)
@@ -5267,7 +5576,7 @@
 	)
 	(hierarchical_label "USB_AUDIO{USB}"
 		(shape input)
-		(at 40.64 96.52 180)
+		(at 31.75 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5276,6 +5585,227 @@
 			(justify right)
 		)
 		(uuid "b8f00bb7-db73-49b2-a9b4-9733e7917179")
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Resistors:0402,22Ω")
+		(at 62.23 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02830f35-55ff-43b8-961a-6edb901e7fe9")
+		(property "Reference" "R42"
+			(at 57.658 102.616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22Ω"
+			(at 62.23 104.14 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0402"
+			(at 62.23 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF220JTCE_C25092.pdf"
+			(at 62.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±100ppm/°C 22Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 62.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25092"
+			(at 62.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "2497993"
+			(at 62.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 62.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 62.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 62.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 62.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 62.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 62.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 62.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF220JTCE"
+			(at 62.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "22Ω"
+			(at 62.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "62.5mW"
+			(at 62.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 62.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "50V"
+			(at 62.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 62.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 62.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 62.23 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "81506900-1096-4551-9b5d-5ea8c008ef42")
+		)
+		(pin "1"
+			(uuid "68df14d2-6b6c-4c83-9642-006c267f6b85")
+		)
+		(instances
+			(project "OrangePie"
+				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/5c90feeb-24b4-4351-a3fd-4dbcb45d386c"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -8395,7 +8925,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 85.09 96.52 270)
+		(at 91.44 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8403,7 +8933,7 @@
 		(dnp no)
 		(uuid "91239475-b921-49c9-8abb-720d2c59db87")
 		(property "Reference" "C41"
-			(at 81.28 97.536 90)
+			(at 87.63 97.536 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8411,7 +8941,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 81.28 94.996 90)
+			(at 87.63 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8419,7 +8949,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
-			(at 81.28 97.4852 0)
+			(at 87.63 97.4852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8428,7 +8958,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 96.52 0)
+			(at 91.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8437,7 +8967,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 85.09 96.52 0)
+			(at 91.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8446,7 +8976,7 @@
 			)
 		)
 		(property "LCSC" " C90276"
-			(at 85.09 96.52 90)
+			(at 91.44 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8455,7 +8985,7 @@
 			)
 		)
 		(property "MPN" "VT1V470M0605"
-			(at 85.09 96.52 90)
+			(at 91.44 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8898,7 +9428,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 96.52 270)
+		(at 85.09 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8907,7 +9437,7 @@
 		(fields_autoplaced yes)
 		(uuid "be3f3d1e-c170-47aa-b562-93f68b867717")
 		(property "Reference" "#PWR082"
-			(at 68.58 96.52 0)
+			(at 78.74 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8916,7 +9446,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 96.52 90)
+			(at 81.28 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8925,7 +9455,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 96.52 0)
+			(at 85.09 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8934,7 +9464,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 96.52 0)
+			(at 85.09 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8943,7 +9473,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 96.52 0)
+			(at 85.09 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10016,7 +10546,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,1.5kΩ")
-		(at 57.15 96.52 0)
+		(at 68.58 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10025,7 +10555,7 @@
 		(fields_autoplaced yes)
 		(uuid "dbd7369c-f7f8-4981-8525-dc2a9d1054b6")
 		(property "Reference" "R19"
-			(at 59.69 96.52 0)
+			(at 71.12 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10034,7 +10564,7 @@
 			)
 		)
 		(property "Value" "1.5kΩ"
-			(at 57.15 96.52 90)
+			(at 68.58 96.52 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10043,7 +10573,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 55.372 96.52 90)
+			(at 66.802 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10052,7 +10582,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF1501TCE_C25867.pdf"
-			(at 57.15 96.52 0)
+			(at 68.58 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10061,7 +10591,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 1.5kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 57.15 96.52 0)
+			(at 68.58 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10070,7 +10600,7 @@
 			)
 		)
 		(property "LCSC" "C25867"
-			(at 57.15 96.52 0)
+			(at 68.58 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10079,7 +10609,7 @@
 			)
 		)
 		(property "Stock" "778464"
-			(at 57.15 96.52 0)
+			(at 68.58 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10088,7 +10618,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 57.15 96.52 0)
+			(at 68.58 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10097,7 +10627,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 57.15 96.52 0)
+			(at 68.58 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10106,7 +10636,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 57.15 96.52 0)
+			(at 68.58 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10115,7 +10645,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 57.15 96.52 0)
+			(at 68.58 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10124,7 +10654,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 57.15 96.52 0)
+			(at 68.58 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10133,7 +10663,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 57.15 96.52 0)
+			(at 68.58 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10142,7 +10672,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 57.15 96.52 0)
+			(at 68.58 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10151,7 +10681,7 @@
 			)
 		)
 		(property "Part" "0402WGF1501TCE"
-			(at 57.15 96.52 0)
+			(at 68.58 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10160,7 +10690,7 @@
 			)
 		)
 		(property "Resistance" "1.5kΩ"
-			(at 57.15 96.52 0)
+			(at 68.58 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10169,7 +10699,7 @@
 			)
 		)
 		(property "Power(Watts)" "62.5mW"
-			(at 57.15 96.52 0)
+			(at 68.58 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10178,7 +10708,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 57.15 96.52 0)
+			(at 68.58 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10187,7 +10717,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "50V"
-			(at 57.15 96.52 0)
+			(at 68.58 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10196,7 +10726,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 57.15 96.52 0)
+			(at 68.58 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10205,7 +10735,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 57.15 96.52 0)
+			(at 68.58 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10214,7 +10744,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 57.15 96.52 0)
+			(at 68.58 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10232,6 +10762,227 @@
 			(project ""
 				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/5c90feeb-24b4-4351-a3fd-4dbcb45d386c"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Resistors:0402,22Ω")
+		(at 62.23 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "deafe1fd-eb0e-43c9-8e12-d4efed0218e3")
+		(property "Reference" "R43"
+			(at 57.658 105.156 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22Ω"
+			(at 62.23 106.68 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:R_0402"
+			(at 62.23 108.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF220JTCE_C25092.pdf"
+			(at 62.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±1% ±100ppm/°C 22Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(at 62.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25092"
+			(at 62.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "2497993"
+			(at 62.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 62.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 62.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 62.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 62.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 62.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 62.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 62.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF220JTCE"
+			(at 62.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "22Ω"
+			(at 62.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "62.5mW"
+			(at 62.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 62.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "50V"
+			(at 62.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 62.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 62.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 62.23 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "37743449-a207-4b6b-a4a1-f0cac0544cba")
+		)
+		(pin "1"
+			(uuid "f4194fe6-bdbe-47c7-b04e-0a18e2746ae9")
+		)
+		(instances
+			(project "OrangePie"
+				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/5c90feeb-24b4-4351-a3fd-4dbcb45d386c"
+					(reference "R43")
 					(unit 1)
 				)
 			)
