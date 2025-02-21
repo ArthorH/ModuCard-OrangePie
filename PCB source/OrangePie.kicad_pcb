@@ -9217,6 +9217,135 @@
 			)
 		)
 	)
+	(footprint "PCM_JLCPCB:Hole_Tooling_JLCPCB"
+		(layer "F.Cu")
+		(uuid "2b674944-e6ad-43f0-af63-6d407524c75b")
+		(at 129.2 42.2)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1abc3677-4a33-4a97-b518-acaa0ae84e07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Hole_Tooling_JLCPCB"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44ce48db-847f-467b-bb68-110489457d71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Hole_Tooling_JLCPCB"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af2bff56-66b3-47e5-be26-e0d71e5f9c7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "512c43f8-8992-4210-a4f2-f87898b3c180")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa080ccd-b427-46c2-a14a-0a7603e6263e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "00fd7560-0e56-4adc-9b8a-b3aceda734c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1 1)
+			(drill 1.152)
+			(layers "F&B.Cu" "*.Mask")
+			(solder_mask_margin 0.148)
+			(teardrops
+				(best_length_ratio 0.5)
+				(max_length 1)
+				(best_width_ratio 1)
+				(max_width 2)
+				(curve_points 0)
+				(filter_ratio 0.9)
+				(enabled no)
+				(allow_two_segments no)
+				(prefer_zone_connections no)
+			)
+			(uuid "8dd3c9ee-5722-47a9-b3fb-8208339271f1")
+		)
+		(zone
+			(net 0)
+			(net_name "")
+			(layers "*.Cu" "*.Paste" "*.SilkS" "*.CrtYd")
+			(uuid "ed8bb618-9416-4dc2-9d77-7c3244baa684")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(filled_areas_thickness no)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads not_allowed)
+				(copperpour not_allowed)
+				(footprints not_allowed)
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+			)
+			(polygon
+				(pts
+					(xy 128.2 41.2) (xy 130.2 41.2) (xy 130.2 43.2) (xy 128.2 43.2)
+				)
+			)
+		)
+	)
 	(footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 		(layer "F.Cu")
 		(uuid "2e16e14a-08a7-4cf9-b446-7f2ca0997c87")
@@ -43657,6 +43786,135 @@
 			)
 		)
 	)
+	(footprint "PCM_JLCPCB:Hole_Tooling_JLCPCB"
+		(layer "F.Cu")
+		(uuid "d0b310f8-1cf8-448e-a8ec-f2e728b5d674")
+		(at 129.2 135.8)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1abc3677-4a33-4a97-b518-acaa0ae84e07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Hole_Tooling_JLCPCB"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44ce48db-847f-467b-bb68-110489457d71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Hole_Tooling_JLCPCB"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af2bff56-66b3-47e5-be26-e0d71e5f9c7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "512c43f8-8992-4210-a4f2-f87898b3c180")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa080ccd-b427-46c2-a14a-0a7603e6263e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "00fd7560-0e56-4adc-9b8a-b3aceda734c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1 1)
+			(drill 1.152)
+			(layers "F&B.Cu" "*.Mask")
+			(solder_mask_margin 0.148)
+			(teardrops
+				(best_length_ratio 0.5)
+				(max_length 1)
+				(best_width_ratio 1)
+				(max_width 2)
+				(curve_points 0)
+				(filter_ratio 0.9)
+				(enabled no)
+				(allow_two_segments no)
+				(prefer_zone_connections no)
+			)
+			(uuid "8dd3c9ee-5722-47a9-b3fb-8208339271f1")
+		)
+		(zone
+			(net 0)
+			(net_name "")
+			(layers "*.Paste" "*.SilkS" "*.CrtYd" "F.Cu" "In1.Cu" "In2.Cu" "B.Cu")
+			(uuid "ed8bb618-9416-4dc2-9d77-7c3244baa684")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(filled_areas_thickness no)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads not_allowed)
+				(copperpour not_allowed)
+				(footprints not_allowed)
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+			)
+			(polygon
+				(pts
+					(xy 128.2 134.8) (xy 130.2 134.8) (xy 130.2 136.8) (xy 128.2 136.8)
+				)
+			)
+		)
+	)
 	(footprint "PCM_JLCPCB:C_0402"
 		(layer "F.Cu")
 		(uuid "d4b9f2fe-6efe-4fa0-87cb-2ef0300133c2")
@@ -50388,6 +50646,135 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "PCM_JLCPCB:Hole_Tooling_JLCPCB"
+		(layer "F.Cu")
+		(uuid "e9fa27f9-154e-46c5-8df5-2edace595936")
+		(at 32.2 42)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1abc3677-4a33-4a97-b518-acaa0ae84e07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Hole_Tooling_JLCPCB"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44ce48db-847f-467b-bb68-110489457d71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Hole_Tooling_JLCPCB"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af2bff56-66b3-47e5-be26-e0d71e5f9c7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "512c43f8-8992-4210-a4f2-f87898b3c180")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa080ccd-b427-46c2-a14a-0a7603e6263e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "00fd7560-0e56-4adc-9b8a-b3aceda734c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1 1)
+			(drill 1.152)
+			(layers "F&B.Cu" "*.Mask")
+			(solder_mask_margin 0.148)
+			(teardrops
+				(best_length_ratio 0.5)
+				(max_length 1)
+				(best_width_ratio 1)
+				(max_width 2)
+				(curve_points 0)
+				(filter_ratio 0.9)
+				(enabled no)
+				(allow_two_segments no)
+				(prefer_zone_connections no)
+			)
+			(uuid "8dd3c9ee-5722-47a9-b3fb-8208339271f1")
+		)
+		(zone
+			(net 0)
+			(net_name "")
+			(layers "*.Paste" "*.SilkS" "*.CrtYd" "F.Cu" "In1.Cu" "In2.Cu" "B.Cu")
+			(uuid "ed8bb618-9416-4dc2-9d77-7c3244baa684")
+			(hatch edge 0.5)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.25)
+			(filled_areas_thickness no)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads not_allowed)
+				(copperpour not_allowed)
+				(footprints not_allowed)
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+			)
+			(polygon
+				(pts
+					(xy 31.2 41) (xy 33.2 41) (xy 33.2 43) (xy 31.2 43)
+				)
 			)
 		)
 	)
