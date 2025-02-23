@@ -13,7 +13,7 @@
 - UART debug interface
   
 # Block Diagram
-<img align="center" height="600" src="https://github.com/user-attachments/assets/d4d65f8d-c387-4a14-a206-84c8d4a858b6">&nbsp;&nbsp;&nbsp;&nbsp;
+<img align="center" height="500" src="https://github.com/user-attachments/assets/d4d65f8d-c387-4a14-a206-84c8d4a858b6">&nbsp;&nbsp;&nbsp;&nbsp;
 
 # Author
 Artem Horiunov
