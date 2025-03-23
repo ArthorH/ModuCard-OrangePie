@@ -15,6 +15,9 @@
 # Block Diagram
 <img align="center" height="400" src="https://github.com/user-attachments/assets/d4d65f8d-c387-4a14-a206-84c8d4a858b6">&nbsp;&nbsp;&nbsp;&nbsp;
 
+# Manufactured board
+![obraz](https://github.com/user-attachments/assets/bbdc9bcd-c89d-4a9a-b487-b6c7afafb064)
+
 # Author
 Artem Horiunov
 # License 
