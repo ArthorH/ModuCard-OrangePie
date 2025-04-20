@@ -5288,12 +5288,6 @@
 		(uuid "45c12612-eacb-4f5f-93f9-6ab97ac16e6c")
 	)
 	(junction
-		(at 190.5 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46b9e799-0324-4024-bc14-dc8aed9791c3")
-	)
-	(junction
 		(at 99.06 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5364,6 +5358,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c21f1163-5117-4e2c-8b92-1f58a941b453")
+	)
+	(junction
+		(at 190.5 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c22f52d5-091f-4595-ad65-6df0aa7f37d1")
 	)
 	(junction
 		(at 227.33 109.22)
@@ -5550,6 +5550,16 @@
 			(type default)
 		)
 		(uuid "12a298ba-40c7-4a9d-8090-e4304196552c")
+	)
+	(wire
+		(pts
+			(xy 190.5 63.5) (xy 201.93 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12dbcfc7-2aa2-4acf-8480-b770dc53113d")
 	)
 	(wire
 		(pts
@@ -5790,16 +5800,6 @@
 			(type default)
 		)
 		(uuid "4cbf67fb-758e-4138-9824-15d067f1a881")
-	)
-	(wire
-		(pts
-			(xy 190.5 63.5) (xy 203.2 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53214a13-533e-46df-9a11-32f2a7973481")
 	)
 	(wire
 		(pts
@@ -6233,6 +6233,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 63.5) (xy 236.22 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab5d39cc-aa19-41bb-b278-da4f14c1fc40")
+	)
+	(wire
+		(pts
 			(xy 54.61 158.75) (xy 54.61 161.29)
 		)
 		(stroke
@@ -6413,16 +6423,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 43.18) (xy 168.91 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd8ad62b-e461-48de-b601-d3bb23958c25")
-	)
-	(wire
-		(pts
 			(xy 261.62 67.31) (xy 260.35 67.31)
 		)
 		(stroke
@@ -6570,16 +6570,6 @@
 			(type default)
 		)
 		(uuid "e58ad358-0150-40d7-85c8-c719cc51d4f9")
-	)
-	(wire
-		(pts
-			(xy 208.28 63.5) (xy 236.22 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6ae0c58-5051-4500-89d1-787d164f6e56")
 	)
 	(wire
 		(pts
@@ -6771,6 +6761,16 @@
 		)
 		(uuid "3f373f05-533f-4c2e-b886-b4fb763d6ebd")
 	)
+	(label "VBUS"
+		(at 168.91 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43672c56-10f0-4c93-9d4e-9636109a33f8")
+	)
 	(label "VCCR"
 		(at 182.88 48.26 0)
 		(effects
@@ -6800,16 +6800,6 @@
 			(justify left bottom)
 		)
 		(uuid "7a4b4938-b573-4240-8740-d48f016c68b0")
-	)
-	(label "VBUS"
-		(at 171.45 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8476be03-5705-4869-9f0f-0cebb444055b")
 	)
 	(label "VDD_{int}"
 		(at 124.46 71.12 0)
@@ -8801,7 +8791,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM2704CDBR:SOP65P780X200-28N"
+		(property "Footprint" "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm"
 			(at 151.13 73.66 0)
 			(effects
 				(font
@@ -10016,74 +10006,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 205.74 63.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "575eb2c6-31a5-42da-b1d6-03ae8158fe98")
-		(property "Reference" "C2"
-			(at 205.1939 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47uF 50V RVT1H470M0607"
-			(at 205.1939 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 205.74 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 205.74 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4ff54c0-ec90-47e7-a0f4-f0d3acd520e4")
-		)
-		(pin "2"
-			(uuid "61e33b27-2390-4df1-aae2-ba7fdc1a7d07")
-		)
-		(instances
-			(project "OrangePie"
-				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/5c90feeb-24b4-4351-a3fd-4dbcb45d386c"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 266.7 64.77 0)
 		(unit 1)
@@ -10765,6 +10687,199 @@
 			(project "OrangePie"
 				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/5c90feeb-24b4-4351-a3fd-4dbcb45d386c"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Capacitors:0805,10uF,(2)")
+		(at 205.74 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "755a52a1-994d-4470-963b-0a0497134861")
+		(property "Reference" "C40"
+			(at 205.74 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 205.74 57.15 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0805"
+			(at 205.74 61.722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411041759_Murata-Electronics-GRM21BR61H106KE43L_C440198.pdf"
+			(at 205.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 10uF X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 205.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C440198"
+			(at 205.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "1211974"
+			(at 205.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.069USD"
+			(at 205.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 205.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "5"
+			(at 205.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 205.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 205.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 205.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 205.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "GRM21BR61H106KE43L"
+			(at 205.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rated" "50V"
+			(at 205.74 59.69 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 205.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "10uF"
+			(at 205.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X5R"
+			(at 205.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3f9207e-9993-4d80-b05d-d471d0d7d773")
+		)
+		(pin "2"
+			(uuid "022d2b37-e111-4d1c-9d85-e7dbb91117c8")
+		)
+		(instances
+			(project "OrangePie"
+				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/5c90feeb-24b4-4351-a3fd-4dbcb45d386c"
+					(reference "C40")
 					(unit 1)
 				)
 			)
