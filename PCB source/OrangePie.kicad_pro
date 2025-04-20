@@ -248,52 +248,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "footprint_link_issues|1511300|736600|2c153c57-a10a-47af-aab4-f7f9b0d41d77|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_issues|1041400|1028700|383242e3-8f56-4450-9734-2e659b84292b|00000000-0000-0000-0000-000000000000|||",
-        "Checked its ok ¯\\_(ツ)_/¯ A.H."
-      ],
-      [
-        "lib_symbol_issues|1244600|952500|9b92bdcf-6388-451f-877a-9d5faf449233|00000000-0000-0000-0000-000000000000|||",
-        "Checked. It's ok. ( ദ്ദി ˙ᗜ˙ ) A.H."
-      ],
-      [
-        "lib_symbol_issues|1257300|914400|6b952712-0b1e-486e-a4cf-66aac22a87f6|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_issues|1447800|889000|a16ece3c-3a82-4e53-aac5-51da65bd57e0|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_issues|609600|1574800|1422dd6b-e440-47ab-8c3a-e0c54b87a41f|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_issues|609600|1727200|2a691aca-b2e2-4dac-97d1-25f7620be9c8|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_issues|990600|914400|2dfe236d-d84d-45e7-bbfd-33f4e0aeb77b|00000000-0000-0000-0000-000000000000|||",
-        "Antmicro lib is uninstalable and unmaintainable :(("
-      ],
-      [
-        "lib_symbol_mismatch|1511300|736600|2c153c57-a10a-47af-aab4-f7f9b0d41d77|00000000-0000-0000-0000-000000000000|||",
-        "Moved XTI and XTO to the bottom as symbol is a bit wierd. A.H."
-      ],
-      [
-        "pin_to_pin|1587500|1219200|5697f511-e6a7-4214-921d-f2c41f10dee9|beb3ff0b-4ee6-4691-8d70-de3b370f0ebc|/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/5c90feeb-24b4-4351-a3fd-4dbcb45d386c|/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/5c90feeb-24b4-4351-a3fd-4dbcb45d386c|/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/5c90feeb-24b4-4351-a3fd-4dbcb45d386c",
-        "JLCPCB lib issue. Unnecessary warning ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧ A.H."
-      ],
-      [
-        "power_pin_not_driven|1320800|215900|1522ef3c-e2c6-4d93-8caf-85e64f05153f|00000000-0000-0000-0000-000000000000|/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/50dedcd5-65c1-4d6e-8d03-473117f8d376|/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/50dedcd5-65c1-4d6e-8d03-473117f8d376|",
-        "Kicad bugged out"
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },

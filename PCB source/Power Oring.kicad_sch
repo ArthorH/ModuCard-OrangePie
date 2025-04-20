@@ -2708,13 +2708,13 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Transistors:NMOS,AO3400A")
-		(at 124.46 53.34 90)
+		(at 124.46 53.34 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4e38f18c-08da-4897-a231-8a9344c2dad5")
 		(property "Reference" "Q2"
 			(at 124.46 44.45 90)
@@ -3747,13 +3747,13 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Transistors:NMOS,AO3400A")
-		(at 124.46 119.38 90)
+		(at 124.46 119.38 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f8f613d9-b271-482e-aa61-b7c0fff6b85e")
 		(property "Reference" "Q1"
 			(at 124.46 110.49 90)

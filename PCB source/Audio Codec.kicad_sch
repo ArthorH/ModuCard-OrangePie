@@ -5270,12 +5270,6 @@
 		(uuid "31cd7b1c-7787-4355-9f56-d0a50b18d986")
 	)
 	(junction
-		(at 106.68 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "356e6178-507e-4683-a7c6-0c6558a559da")
-	)
-	(junction
 		(at 168.91 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5370,12 +5364,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca60cba8-ccef-44c1-a2ee-b45e57d460cd")
-	)
-	(junction
-		(at 99.06 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1d3dc1b-78a0-47d2-856c-4e3976ef86a9")
 	)
 	(junction
 		(at 241.3 40.64)
@@ -5923,16 +5911,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 40.64) (xy 99.06 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f65f0d8-08cc-43f4-9fef-c4548373a8fa")
-	)
-	(wire
-		(pts
 			(xy 222.25 113.03) (xy 227.33 113.03)
 		)
 		(stroke
@@ -5950,16 +5928,6 @@
 			(type default)
 		)
 		(uuid "79b89b40-5339-47a2-9c1b-2cfca27b36bb")
-	)
-	(wire
-		(pts
-			(xy 92.71 43.18) (xy 92.71 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79fc5394-2b4a-4d9a-ac4c-6cee7782acb6")
 	)
 	(wire
 		(pts
@@ -6213,7 +6181,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 38.1) (xy 106.68 40.64)
+			(xy 92.71 38.1) (xy 92.71 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6790,6 +6758,16 @@
 			(justify left bottom)
 		)
 		(uuid "5e1e2353-0e7b-4530-a7fc-260984a1272f")
+	)
+	(label "VBUS"
+		(at 106.68 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62bf32a7-1476-45d0-a3a0-2ca1bc16fb52")
 	)
 	(label "VDD_{int}"
 		(at 96.52 66.04 0)
@@ -8002,7 +7980,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 106.68 38.1 0)
+		(at 92.71 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8011,7 +7989,7 @@
 		(fields_autoplaced yes)
 		(uuid "175ff8fa-9806-4848-9583-5ba42192ab10")
 		(property "Reference" "#PWR074"
-			(at 106.68 41.91 0)
+			(at 92.71 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8020,7 +7998,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 106.68 33.02 0)
+			(at 92.71 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8028,7 +8006,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 38.1 0)
+			(at 92.71 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8037,7 +8015,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 38.1 0)
+			(at 92.71 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8046,7 +8024,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 106.68 38.1 0)
+			(at 92.71 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
