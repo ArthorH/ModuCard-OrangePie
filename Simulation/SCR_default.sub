@@ -1,0 +1,34 @@
+* SCR:
+* Extracted from PONT_DIPH.CIR file from EDN website.
+* I renamed that file as SCR_CKT.CIR
+*
+* Anode
+* | Cathode
+* | | Trigger
+* | | |
+.subckt SCR 1 2 3
+*
+* Models used by the SCR model:
+.model STH VSwitch (ROn=0.1,VOff=0.5)
+.model DLG D (Rs =25m)
+*
+* We assume that the SCR in the on-state is equivalent to 0.1 ohm:
+SSCR 1 4 5 0 STH
+VSCR 4 2 0V
+*
+* Trigger to cathode impedance is a 1k ohm resistance - for simplification:
+RTrig 3 2 1k
+*
+* The following circuit locks in the on-state when a 1mA current flows
+* through the gate to the cathode with a positive anode to cathode voltage.
+* This circuit locks in the off-state when the current through ths SCR tends
+* to become negative:
+VPlus 6 0 2V
+SiTrig 6 5 3 2 STH
+CState 5 0 1uF IC=0
+DLogic 5 8 DLG
+HCur 8 0 poly(1) VSCR 1 10000
+*
+* The potential of node 5 reflects the state of the SCR. It is less than 1V
+* for the off-state and between 1V and 2V in the on-state.
+.ends

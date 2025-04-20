@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "c1bdb4fa-0643-496c-a0a3-77a7212179e6")
 	(paper "A4")
 	(title_block
@@ -10,16 +10,19 @@
 		(company "ModuCard System")
 	)
 	(lib_symbols
-		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
+		(symbol "Device:C_Polarized_Small"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at 0.254 1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -27,8 +30,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
+			(property "Value" "C_Polarized_Small"
+				(at 0.254 -2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -37,7 +40,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -54,7 +57,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Polarized capacitor"
+			(property "Description" "Polarized capacitor, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -81,34 +84,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_Polarized_0_1"
+			(symbol "C_Polarized_Small_0_1"
 				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
+					(start -1.524 0.6858)
+					(end 1.524 0.3048)
 					(stroke
 						(width 0)
 						(type default)
@@ -118,8 +97,8 @@
 					)
 				)
 				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
 					(stroke
 						(width 0)
 						(type default)
@@ -128,11 +107,35 @@
 						(type outline)
 					)
 				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "C_Polarized_1_1"
+			(symbol "C_Polarized_Small_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
+					(at 0 2.54 270)
+					(length 1.8542)
 					(name "~"
 						(effects
 							(font
@@ -149,8 +152,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
+					(at 0 -2.54 90)
+					(length 1.8542)
 					(name "~"
 						(effects
 							(font
@@ -167,9 +170,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PCM_JLCPCB-Capacitors:1206,10uF"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -230,7 +236,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "4852625"
+			(property "Stock" "821695"
 				(at 0 0 0)
 				(effects
 					(font
@@ -239,7 +245,7 @@
 					(hide yes)
 				)
 			)
-			(property "Price" "0.031USD"
+			(property "Price" "0.035USD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -359,7 +365,7 @@
 			(symbol "1206,10uF_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -0.635) (xy 1.27 -0.635)
+						(xy -1.27 0.635) (xy 1.27 0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -371,7 +377,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 0.635) (xy 1.27 0.635)
+						(xy -1.27 -0.635) (xy 1.27 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -420,9 +426,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PCM_JLCPCB-Resistors:0402,10kΩ"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -483,7 +492,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "6666349"
+			(property "Stock" "13746052"
 				(at 0 0 0)
 				(effects
 					(font
@@ -687,9 +696,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PCM_JLCPCB-Resistors:0402,20kΩ"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -750,7 +762,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "1747699"
+			(property "Stock" "1163119"
 				(at 0 0 0)
 				(effects
 					(font
@@ -954,9 +966,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PCM_JLCPCB-Resistors:0402,22Ω"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1017,7 +1032,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "2497993"
+			(property "Stock" "2158519"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1221,12 +1236,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "parts_local:Orange pi 5 pro"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J3"
+			(property "Reference" "J2"
 				(at -10.795 53.34 0)
 				(effects
 					(font
@@ -1242,7 +1258,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "OrangePi Pro 5:Orange Pi 5 pro"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1302,6 +1318,528 @@
 			)
 			(symbol "Orange pi 5 pro_1_1"
 				(pin power_in line
+					(at -49.53 44.45 0)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -49.53 41.91 0)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -49.53 34.29 0)
+					(length 2.54)
+					(name "GPIO1_D3/UART4_RX/I2C1_SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -49.53 30.48 0)
+					(length 2.54)
+					(name "GPIO1_D2/UART4_TX/I2C1_SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -49.53 26.67 0)
+					(length 2.54)
+					(name "GPIO1_B7/UART1_RX/I2C5_SDA/PWM13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -49.53 22.86 0)
+					(length 2.54)
+					(name "GPIO4_B2/PWM14/CAN1_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -49.53 19.05 0)
+					(length 2.54)
+					(name "GPIO4_B3/PWM15/CAN1_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -49.53 15.24 0)
+					(length 2.54)
+					(name "GPIO1_B6/UART1_TX/I2C5_SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -49.53 11.43 0)
+					(length 2.54)
+					(name "GPIO1_B2/UART4_RX/SPI0_MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -49.53 7.62 0)
+					(length 2.54)
+					(name "GPIO1_B1/SPI0_MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -49.53 3.81 0)
+					(length 2.54)
+					(name "GPIO1_B3/UART4_TX/SPIO_CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -49.53 0 0)
+					(length 2.54)
+					(name "GPIO1_A2/SPI4_CLK/PWM0/I2C4_SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -49.53 -3.81 0)
+					(length 2.54)
+					(name "GPIO1_A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -49.53 -7.62 0)
+					(length 2.54)
+					(name "GPIO1_A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -49.53 -11.43 0)
+					(length 2.54)
+					(name "GPIO1_D7/I2C8_SDA/PWM15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -49.53 -15.24 0)
+					(length 2.54)
+					(name "GPIO4_A7/I2C5_SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -49.53 -19.05 0)
+					(length 2.54)
+					(name "GPIO4_A6/UART3_RX/I2C5_SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -49.53 -30.48 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -49.53 -34.29 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -49.53 -38.1 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -34.29 -46.99 90)
+					(length 2.54)
+					(name "USB_5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 -46.99 90)
+					(length 2.54)
+					(name "USB20_DM3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -26.67 -46.99 90)
+					(length 2.54)
+					(name "USB20_DP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 -46.99 90)
+					(length 2.54)
+					(name "USB_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -12.7 -46.99 90)
+					(length 2.54)
+					(name "USB_5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 -46.99 90)
+					(length 2.54)
+					(name "USB20_DM4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -46.99 90)
+					(length 2.54)
+					(name "USB20_DP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.27 -46.99 90)
+					(length 2.54)
+					(name "USB_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -46.99 90)
+					(length 2.54)
+					(name "USB_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at 27.94 43.18 180)
 					(length 2.54)
 					(name "5V"
@@ -1320,16 +1858,106 @@
 					)
 				)
 				(pin power_in line
-					(at 27.94 -31.75 180)
+					(at 27.94 40.64 180)
 					(length 2.54)
-					(name "GND"
+					(name "5V"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 31.75 180)
+					(length 2.54)
+					(name "GPIO0_B5/UART2_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 27.94 180)
+					(length 2.54)
+					(name "GPIO0_B6/UART2_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 24.13 180)
+					(length 2.54)
+					(name "GPIO1_A7/PWM3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 20.32 180)
+					(length 2.54)
+					(name "GPIO1_A1/UART6_TX/SPI4_MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 16.51 180)
+					(length 2.54)
+					(name "GPIO1_A0/UART6_RX/SPI4_MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1409,24 +2037,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 27.94 -35.56 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 27.94 -2.54 180)
 					(length 2.54)
@@ -1438,24 +2048,6 @@
 						)
 					)
 					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 27.94 -39.37 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1499,24 +2091,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 27.94 40.64 180)
-					(length 2.54)
-					(name "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 27.94 -13.97 180)
 					(length 2.54)
@@ -1528,168 +2102,6 @@
 						)
 					)
 					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -49.53 -38.1 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -49.53 -19.05 0)
-					(length 2.54)
-					(name "GPIO4_A6/UART3_RX/I2C5_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -49.53 -15.24 0)
-					(length 2.54)
-					(name "GPIO4_A7/I2C5_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -49.53 -11.43 0)
-					(length 2.54)
-					(name "GPIO1_D7/I2C8_SDA/PWM15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -49.53 -7.62 0)
-					(length 2.54)
-					(name "GPIO1_A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -49.53 -3.81 0)
-					(length 2.54)
-					(name "GPIO1_A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -49.53 0 0)
-					(length 2.54)
-					(name "GPIO1_A2/SPI4_CLK/PWM0/I2C4_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -49.53 -34.29 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -49.53 3.81 0)
-					(length 2.54)
-					(name "GPIO1_B3/UART4_TX/SPIO_CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1715,420 +2127,6 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -49.53 7.62 0)
-					(length 2.54)
-					(name "GPIO1_B1/SPI0_MISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -49.53 11.43 0)
-					(length 2.54)
-					(name "GPIO1_B2/UART4_RX/SPI0_MOSI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -49.53 41.91 0)
-					(length 2.54)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -49.53 15.24 0)
-					(length 2.54)
-					(name "GPIO1_B6/UART1_TX/I2C5_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -49.53 19.05 0)
-					(length 2.54)
-					(name "GPIO4_B3/PWM15/CAN1_TX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -49.53 22.86 0)
-					(length 2.54)
-					(name "GPIO4_B2/PWM14/CAN1_RX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -49.53 -30.48 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -49.53 26.67 0)
-					(length 2.54)
-					(name "GPIO1_B7/UART1_RX/I2C5_SDA/PWM13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -49.53 30.48 0)
-					(length 2.54)
-					(name "GPIO1_D2/UART4_TX/I2C1_SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -49.53 34.29 0)
-					(length 2.54)
-					(name "GPIO1_D3/UART4_RX/I2C1_SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 31.75 180)
-					(length 2.54)
-					(name "GPIO0_B5/UART2_TX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -49.53 44.45 0)
-					(length 2.54)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 2.54 -46.99 90)
-					(length 2.54)
-					(name "USB_GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -1.27 -46.99 90)
-					(length 2.54)
-					(name "USB_GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "42"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -5.08 -46.99 90)
-					(length 2.54)
-					(name "USB20_DP4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -8.89 -46.99 90)
-					(length 2.54)
-					(name "USB20_DM4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "44"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -12.7 -46.99 90)
-					(length 2.54)
-					(name "USB_5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "45"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -34.29 -46.99 90)
-					(length 2.54)
-					(name "USB_5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "46"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -30.48 -46.99 90)
-					(length 2.54)
-					(name "USB20_DM3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -26.67 -46.99 90)
-					(length 2.54)
-					(name "USB20_DP3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -22.86 -46.99 90)
-					(length 2.54)
-					(name "USB_GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "49"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 27.94 180)
-					(length 2.54)
-					(name "GPIO0_B6/UART2_RX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 24.13 180)
-					(length 2.54)
-					(name "GPIO1_A7/PWM3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 27.94 -27.94 180)
 					(length 2.54)
@@ -2147,17 +2145,17 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 27.94 20.32 180)
+				(pin power_in line
+					(at 27.94 -31.75 180)
 					(length 2.54)
-					(name "GPIO1_A1/UART6_TX/SPI4_MOSI"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2165,17 +2163,35 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 27.94 16.51 180)
+				(pin power_in line
+					(at 27.94 -35.56 180)
 					(length 2.54)
-					(name "GPIO1_A0/UART6_RX/SPI4_MISO"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 -39.37 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2184,12 +2200,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2261,7 +2282,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2273,7 +2294,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2304,12 +2325,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2400,6 +2426,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(bus_alias "UART"
@@ -2516,10 +2543,6 @@
 		(uuid "70371079-b390-4ddb-a404-58a27c28ff1b")
 	)
 	(no_connect
-		(at 172.72 87.63)
-		(uuid "85a48a1e-d9f1-4a72-806e-59a0da5fb772")
-	)
-	(no_connect
 		(at 172.72 99.06)
 		(uuid "88df5f93-82f9-4100-b6a1-9f698711f503")
 	)
@@ -2550,10 +2573,6 @@
 	(no_connect
 		(at 95.25 46.99)
 		(uuid "d864c949-c1a6-4aca-a485-c59332456323")
-	)
-	(no_connect
-		(at 95.25 88.9)
-		(uuid "f5fbf209-7646-4707-835e-602b2d6769bb")
 	)
 	(bus_entry
 		(at 209.55 129.54)
@@ -2759,7 +2778,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 60.96) (xy 245.11 64.77)
+			(xy 245.11 58.42) (xy 245.11 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3069,6 +3088,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 88.9) (xy 95.25 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82cf54e8-55e9-4abd-95b2-bf7da7f8f03d")
+	)
+	(wire
+		(pts
 			(xy 172.72 116.84) (xy 175.26 116.84)
 		)
 		(stroke
@@ -3076,6 +3105,16 @@
 			(type default)
 		)
 		(uuid "8688425b-1e78-4f1d-9d91-014d21280906")
+	)
+	(wire
+		(pts
+			(xy 172.72 87.63) (xy 175.26 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b2d33ec-1e26-4886-a311-3bd31b4de4f9")
 	)
 	(wire
 		(pts
@@ -3106,16 +3145,6 @@
 			(type default)
 		)
 		(uuid "94f3836b-5f21-4f44-a0b8-61c60c1d2b6d")
-	)
-	(wire
-		(pts
-			(xy 245.11 53.34) (xy 245.11 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98c02432-9db4-4ca0-a2ab-ce056a485d18")
 	)
 	(wire
 		(pts
@@ -3339,6 +3368,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 45.72) (xy 245.11 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efdb8960-fa6a-4ee2-b0dd-4f154d7f419d")
+	)
+	(wire
+		(pts
 			(xy 256.54 52.07) (xy 256.54 45.72)
 		)
 		(stroke
@@ -3379,7 +3418,6 @@
 	)
 	(label "USB_SBCF.D-"
 		(at 140.97 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3390,7 +3428,6 @@
 	)
 	(label "USB_OUT.D-"
 		(at 227.33 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3401,7 +3438,6 @@
 	)
 	(label "CAN_TR.TXD"
 		(at 62.23 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3412,7 +3448,6 @@
 	)
 	(label "USB_OUT.D+"
 		(at 93.98 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3423,7 +3458,6 @@
 	)
 	(label "USB_SBC.D+"
 		(at 191.77 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3434,7 +3468,6 @@
 	)
 	(label "CAN_TR.RXD"
 		(at 62.23 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3445,7 +3478,6 @@
 	)
 	(label "USB_SBC.D-"
 		(at 177.8 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3456,7 +3488,6 @@
 	)
 	(label "USB_OUT.D-"
 		(at 93.98 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3467,7 +3498,6 @@
 	)
 	(label "USB_SBCF.D+"
 		(at 140.97 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3478,7 +3508,6 @@
 	)
 	(label "USB_OUT.D+"
 		(at 227.33 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3489,7 +3518,6 @@
 	)
 	(label "USB_SBC.D+"
 		(at 177.8 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3500,7 +3528,6 @@
 	)
 	(label "UART_DEBUG.TX"
 		(at 172.72 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3511,7 +3538,6 @@
 	)
 	(label "UART_DEBUG.RX"
 		(at 172.72 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3522,7 +3548,6 @@
 	)
 	(label "USB_SBC.D-"
 		(at 191.77 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3534,7 +3559,6 @@
 	(hierarchical_label "STATUS LED"
 		(shape output)
 		(at 175.26 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3546,7 +3570,6 @@
 	(hierarchical_label "FAN_PWM"
 		(shape output)
 		(at 175.26 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3558,7 +3581,6 @@
 	(hierarchical_label "USER LED 1"
 		(shape output)
 		(at 83.82 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3570,7 +3592,6 @@
 	(hierarchical_label "BUCK_EN"
 		(shape input)
 		(at 50.8 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3582,7 +3603,6 @@
 	(hierarchical_label "ON OFF BTN"
 		(shape input)
 		(at 83.82 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3591,10 +3611,20 @@
 		)
 		(uuid "5323ebae-e491-4466-84be-a01fbe00c792")
 	)
+	(hierarchical_label "DAC RST"
+		(shape input)
+		(at 175.26 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6daa705c-d089-4133-91f7-c9a113d367fb")
+	)
 	(hierarchical_label "USB_SBC{USB}"
 		(shape input)
 		(at 212.09 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3606,7 +3636,6 @@
 	(hierarchical_label "USER LED 2"
 		(shape output)
 		(at 83.82 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3618,7 +3647,6 @@
 	(hierarchical_label "UART_DEBUG{UART}"
 		(shape input)
 		(at 199.39 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3630,7 +3658,6 @@
 	(hierarchical_label "USER BUTTON"
 		(shape input)
 		(at 83.82 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3639,10 +3666,20 @@
 		)
 		(uuid "b987bcc7-ec6c-47a1-b64f-e8d68768686d")
 	)
+	(hierarchical_label "CAN RST"
+		(shape input)
+		(at 83.82 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0d1f0dd-762b-4234-b141-c3d2d9a88ed8")
+	)
 	(hierarchical_label "CAN_TR{RXD TXD}"
 		(shape input)
 		(at 45.72 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3654,7 +3691,6 @@
 	(hierarchical_label "USB_OUT{USB}"
 		(shape input)
 		(at 248.92 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3861,6 +3897,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 245.11 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "269bbe8c-db7d-4525-953b-bdc5d9d13442")
+		(property "Reference" "C1"
+			(at 240.538 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47uF 50V RVT1H470M0607"
+			(at 229.87 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 245.11 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 245.11 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "842785e9-387c-40e0-a787-6bfa841b89a4")
+		)
+		(pin "2"
+			(uuid "33a9d225-5bfd-4d77-bb50-d8f9af575701")
+		)
+		(instances
+			(project "OrangePie"
+				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/d2960c43-83cc-4db9-89f3-db63fa692eb6"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,22Ω")
 		(at 158.75 153.67 90)
 		(unit 1)
@@ -3922,7 +4025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2497993"
+		(property "Stock" "2158519"
 			(at 158.75 153.67 0)
 			(effects
 				(font
@@ -4145,7 +4248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "1747699"
+		(property "Stock" "1163119"
 			(at 59.69 102.87 0)
 			(effects
 				(font
@@ -4305,91 +4408,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 245.11 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4fc14f4f-f5f2-4da6-b112-e1d0b2bf50de")
-		(property "Reference" "C1"
-			(at 251.714 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47uF"
-			(at 249.174 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
-			(at 246.0752 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.11 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 245.11 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" " C90276"
-			(at 245.11 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "VT1V470M0605"
-			(at 245.11 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d2e705b-be2e-4a6c-8621-5e230917f63c")
-		)
-		(pin "2"
-			(uuid "fbe58288-28ec-4430-b99a-f28728cde177")
-		)
-		(instances
-			(project "OrangePie"
-				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/d2960c43-83cc-4db9-89f3-db63fa692eb6"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 175.26 43.18 0)
 		(unit 1)
@@ -4519,7 +4537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6666349"
+		(property "Stock" "13746052"
 			(at 59.69 113.03 0)
 			(effects
 				(font
@@ -4808,7 +4826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4852625"
+		(property "Stock" "821695"
 			(at 256.54 55.88 0)
 			(effects
 				(font
@@ -4817,7 +4835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.031USD"
+		(property "Price" "0.035USD"
 			(at 256.54 55.88 0)
 			(effects
 				(font
@@ -5068,7 +5086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "2497993"
+		(property "Stock" "2158519"
 			(at 158.75 157.48 0)
 			(effects
 				(font
