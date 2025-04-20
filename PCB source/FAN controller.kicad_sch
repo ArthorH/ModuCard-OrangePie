@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "a60aaaaa-4241-4afc-8d68-a145c613db0f")
 	(paper "A4")
 	(title_block
@@ -11,7 +11,9 @@
 	)
 	(lib_symbols
 		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -167,6 +169,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Motor:Fan"
 			(pin_names
@@ -240,9 +243,9 @@
 			)
 			(symbol "Fan_0_1"
 				(arc
-					(start -2.54 -0.508)
-					(mid 0.0028 0.9121)
-					(end 0 3.81)
+					(start 0 3.81)
+					(mid -0.0015 0.9048)
+					(end -2.54 -0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -253,8 +256,43 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -5.08) (xy 0 -4.572)
+						(xy 0 4.572) (xy 0 5.08)
 					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.2672) (xy 0 4.6228)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.016)
+					(radius 3.2512)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -0.508)
+					(mid 0 1.0618)
+					(end 2.54 -0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -277,43 +315,8 @@
 				)
 				(polyline
 					(pts
-						(xy 0 4.2672) (xy 0 4.6228)
+						(xy 0 -5.08) (xy 0 -4.572)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 4.572) (xy 0 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 1.016)
-					(radius 3.2512)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.81)
-					(mid 0.053 0.921)
-					(end 2.54 -0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -324,8 +327,8 @@
 				)
 				(arc
 					(start 2.54 -0.508)
-					(mid 0 1.0618)
-					(end -2.54 -0.508)
+					(mid 0.047 0.9315)
+					(end 0 3.81)
 					(stroke
 						(width 0)
 						(type default)
@@ -373,9 +376,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PCM_JLCPCB-Capacitors:1206,10uF"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -436,7 +442,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "4852625"
+			(property "Stock" "821695"
 				(at 0 0 0)
 				(effects
 					(font
@@ -445,7 +451,7 @@
 					(hide yes)
 				)
 			)
-			(property "Price" "0.031USD"
+			(property "Price" "0.035USD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -565,7 +571,7 @@
 			(symbol "1206,10uF_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -0.635) (xy 1.27 -0.635)
+						(xy -1.27 0.635) (xy 1.27 0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -577,7 +583,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 0.635) (xy 1.27 0.635)
+						(xy -1.27 -0.635) (xy 1.27 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -626,9 +632,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PCM_JLCPCB-Diodes:General,1N4002W"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -689,7 +698,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "26897"
+			(property "Stock" "26535"
 				(at 0 0 0)
 				(effects
 					(font
@@ -827,7 +836,7 @@
 			(symbol "General,1N4002W_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy 1.27 -1.27)
+						(xy -1.27 1.27) (xy 0 -1.27) (xy 1.27 1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -839,7 +848,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy 0 -1.27) (xy 1.27 1.27) (xy -1.27 1.27)
+						(xy -1.27 -1.27) (xy 1.27 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -851,24 +860,6 @@
 				)
 			)
 			(symbol "General,1N4002W_1_1"
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 0 3.81 270)
 					(length 3.81)
@@ -887,10 +878,31 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PCM_JLCPCB-Resistors:0402,0Ω"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -951,7 +963,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "5514860"
+			(property "Stock" "6249348"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1155,9 +1167,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PCM_JLCPCB-Resistors:0402,1.5kΩ"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1218,7 +1233,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "778464"
+			(property "Stock" "1074828"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1422,9 +1437,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PCM_JLCPCB-Resistors:0402,10kΩ"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1485,7 +1503,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "6666349"
+			(property "Stock" "13746052"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1689,14 +1707,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:AO3400A"
-			(pin_names hide)
+		(symbol "PCM_JLCPCB-Transistors:NMOS,AO3400A"
+			(pin_names
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+				(at 4.8514 0.834 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1705,36 +1726,24 @@
 				)
 			)
 			(property "Value" "AO3400A"
-				(at 5.08 0 0)
+				(at 4.8514 -1.2122 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.8 0.8)
 					)
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
+			(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811081213_Alpha---Omega-Semicon-AO3400A_C20917.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1743,7 +1752,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "N-Channel MOSFET"
+			(property "Description" "30V 5.7A 26.5mΩ@10V,5.7A 1.4W 1.5V@250uA 1 N-Channel SOT-23-3L MOSFETs ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1752,7 +1761,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "LCSC" "C20917"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1761,19 +1770,178 @@
 					(hide yes)
 				)
 			)
-			(symbol "AO3400A_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
+			(property "Stock" "670221"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
+			)
+			(property "Price" "0.088USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Minimum Qty" "5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Attrition Qty" "4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Basic Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Transistors,MOSFETs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Alpha & Omega Semicon"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "AO3400A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Continuous Drain Current (Id)" "5.7A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Input Capacitance (Ciss@Vds)" "630pF@15V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Operating Temperature" "-55°C~+150°C@(Tj)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" "1 N-channel"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Drain Source Voltage (Vdss)" "30V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power Dissipation (Pd)" "1.4W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Gate Threshold Voltage (Vgs(th)@Id)" "1.5V@250uA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Drain Source On Resistance (RDS(on)@Vgs,Id)" "26.5mΩ@10V,5.7A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Total Gate Charge (Qg@Vgs)" "7nC@4.5V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Q_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NMOS,AO3400A_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -1788,7 +1956,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1812,34 +1992,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
 					)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -1870,6 +2026,63 @@
 						(type outline)
 					)
 				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
@@ -1894,41 +2107,8 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
-			(symbol "AO3400A_1_1"
+			(symbol "NMOS,AO3400A_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1940,24 +2120,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1983,13 +2145,36 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2061,7 +2246,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2073,7 +2258,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2104,12 +2289,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2200,6 +2390,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -2557,7 +2748,6 @@
 	(hierarchical_label "12V_IN"
 		(shape input)
 		(at 102.87 80.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2569,7 +2759,6 @@
 	(hierarchical_label "FAN_PWM"
 		(shape input)
 		(at 121.92 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2706,7 +2895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5514860"
+		(property "Stock" "6249348"
 			(at 119.38 80.01 0)
 			(effects
 				(font
@@ -2866,82 +3055,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 168.91 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41f854ce-feec-49ee-a105-e1b35ba1858c")
-		(property "Reference" "Q4"
-			(at 175.26 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 175.26 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 173.99 117.475 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 173.99 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 168.91 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "95f31bde-a8cb-4294-8f3c-eb0d9b68127d")
-		)
-		(pin "1"
-			(uuid "faa5bbae-d147-41f4-9058-5b47d5ac51c5")
-		)
-		(pin "3"
-			(uuid "da299cc5-c274-4765-a6ff-8f0b135bf470")
-		)
-		(instances
-			(project ""
-				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/ddd125ab-d3f0-4627-8bf0-c5c0a9168cb7"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 152.4 129.54 0)
 		(unit 1)
@@ -3070,7 +3183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "778464"
+		(property "Stock" "1074828"
 			(at 142.24 115.57 0)
 			(effects
 				(font
@@ -3293,7 +3406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "4852625"
+		(property "Stock" "821695"
 			(at 154.94 95.25 0)
 			(effects
 				(font
@@ -3302,7 +3415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.031USD"
+		(property "Price" "0.035USD"
 			(at 154.94 95.25 0)
 			(effects
 				(font
@@ -3489,7 +3602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "6666349"
+		(property "Stock" "13746052"
 			(at 152.4 121.92 0)
 			(effects
 				(font
@@ -3867,7 +3980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "26897"
+		(property "Stock" "26535"
 			(at 185.42 95.25 0)
 			(effects
 				(font
@@ -4201,7 +4314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "5514860"
+		(property "Stock" "6249348"
 			(at 119.38 88.9 0)
 			(effects
 				(font
@@ -4355,6 +4468,250 @@
 			(project "OrangePie"
 				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/ddd125ab-d3f0-4627-8bf0-c5c0a9168cb7"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Transistors:NMOS,AO3400A")
+		(at 168.91 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e638643b-9a66-4ae4-80b1-fe4999d7e10e")
+		(property "Reference" "Q4"
+			(at 175.26 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 175.26 116.84 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+			(at 167.132 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811081213_Alpha---Omega-Semicon-AO3400A_C20917.pdf"
+			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V 5.7A 26.5mΩ@10V,5.7A 1.4W 1.5V@250uA 1 N-Channel SOT-23-3L MOSFETs ROHS"
+			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20917"
+			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "670221"
+			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.088USD"
+			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "5"
+			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors,MOSFETs"
+			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Alpha & Omega Semicon"
+			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "AO3400A"
+			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Continuous Drain Current (Id)" "5.7A"
+			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Input Capacitance (Ciss@Vds)" "630pF@15V"
+			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+150°C@(Tj)"
+			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "1 N-channel"
+			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Drain Source Voltage (Vdss)" "30V"
+			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Dissipation (Pd)" "1.4W"
+			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Gate Threshold Voltage (Vgs(th)@Id)" "1.5V@250uA"
+			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Drain Source On Resistance (RDS(on)@Vgs,Id)" "26.5mΩ@10V,5.7A"
+			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Total Gate Charge (Qg@Vgs)" "7nC@4.5V"
+			(at 168.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "862fa700-3ba4-4faa-b1b4-83e5469f3ed4")
+		)
+		(pin "3"
+			(uuid "dc4b1e63-1043-4d02-9977-e35a3edd2ec8")
+		)
+		(pin "2"
+			(uuid "a28d192f-f06f-4612-8165-048f4830a6d1")
+		)
+		(instances
+			(project ""
+				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/ddd125ab-d3f0-4627-8bf0-c5c0a9168cb7"
+					(reference "Q4")
 					(unit 1)
 				)
 			)

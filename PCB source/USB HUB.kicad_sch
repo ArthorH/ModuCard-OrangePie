@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "ab500667-28d0-414c-98f0-344b75cd598e")
 	(paper "A4")
 	(title_block
@@ -12,7 +12,9 @@
 	(lib_symbols
 		(symbol "Device:Crystal_GND24_Small"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -80,9 +82,10 @@
 				)
 			)
 			(symbol "Crystal_GND24_Small_0_1"
-				(rectangle
-					(start -0.762 -1.524)
-					(end 0.762 1.524)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 1.905) (xy 1.27 1.905) (xy 1.27 1.27)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -105,18 +108,6 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -0.762) (xy 1.27 0.762)
-					)
-					(stroke
-						(width 0.381)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -1.27 -1.27) (xy -1.27 -1.905) (xy 1.27 -1.905) (xy 1.27 -1.27)
 					)
 					(stroke
@@ -127,12 +118,23 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 1.905) (xy 1.27 1.905) (xy 1.27 1.27)
-					)
+				(rectangle
+					(start -0.762 -1.524)
+					(end 0.762 1.524)
 					(stroke
 						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.762) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
 						(type default)
 					)
 					(fill
@@ -152,6 +154,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 0.762 0.762)
@@ -195,124 +215,13 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.635)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
 			)
-		)
-		(symbol "GND_1"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_1_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
+			(embedded_fonts no)
 		)
 		(symbol "PCM_JLCPCB-Capacitors:0402,10uF"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -373,7 +282,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "9197991"
+			(property "Stock" "1226257"
 				(at 0 0 0)
 				(effects
 					(font
@@ -382,7 +291,7 @@
 					(hide yes)
 				)
 			)
-			(property "Price" "0.007USD"
+			(property "Price" "0.008USD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -502,7 +411,7 @@
 			(symbol "0402,10uF_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -0.635) (xy 1.27 -0.635)
+						(xy -1.27 0.635) (xy 1.27 0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -514,7 +423,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 0.635) (xy 1.27 0.635)
+						(xy -1.27 -0.635) (xy 1.27 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -563,9 +472,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PCM_JLCPCB-Capacitors:0402,1uF"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -626,7 +538,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "8324208"
+			(property "Stock" "6453835"
 				(at 0 0 0)
 				(effects
 					(font
@@ -755,7 +667,7 @@
 			(symbol "0402,1uF_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -0.635) (xy 1.27 -0.635)
+						(xy -1.27 0.635) (xy 1.27 0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -767,7 +679,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 0.635) (xy 1.27 0.635)
+						(xy -1.27 -0.635) (xy 1.27 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -816,6 +728,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "WCH_USB:CH334R"
 			(exclude_from_sim no)
@@ -889,132 +802,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 11.43 -17.78 180)
-					(length 2.54)
-					(name "DMU"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 11.43 -15.24 180)
-					(length 2.54)
-					(name "DPU"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 11.43 -12.7 180)
-					(length 2.54)
-					(name "V5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 11.43 -10.16 180)
-					(length 2.54)
-					(name "VDD33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 11.43 -7.62 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 11.43 -5.08 180)
-					(length 2.54)
-					(name "XO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 11.43 -2.54 180)
-					(length 2.54)
-					(name "XI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1149,6 +936,132 @@
 					)
 				)
 				(pin bidirectional line
+					(at 11.43 -2.54 180)
+					(length 2.54)
+					(name "XI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -5.08 180)
+					(length 2.54)
+					(name "XO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 -7.62 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 11.43 -10.16 180)
+					(length 2.54)
+					(name "VDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 11.43 -12.7 180)
+					(length 2.54)
+					(name "V5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -15.24 180)
+					(length 2.54)
+					(name "DPU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -17.78 180)
+					(length 2.54)
+					(name "DMU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
 					(at 11.43 -20.32 180)
 					(length 2.54)
 					(name "RESET#/CDP"
@@ -1167,12 +1080,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1244,7 +1162,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1256,7 +1174,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1287,12 +1205,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1383,7 +1306,45 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 70.866 74.422)
+		(end 93.726 78.232)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2947385d-1213-4992-84df-0b013b6de574)
+	)
+	(rectangle
+		(start 85.09 62.23)
+		(end 85.09 62.23)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a0bf3b13-1697-4c77-a820-dcea98988c28)
+	)
+	(text "HUB IC\n"
+		(exclude_from_sim no)
+		(at 77.47 77.47 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "23da8af3-29fb-4cfb-8eaa-167c5981a0a6")
 	)
 	(junction
 		(at 173.99 104.14)
@@ -1967,46 +1928,8 @@
 		)
 		(uuid "fd68da44-ef56-4f3c-9067-3b77ab2f6f23")
 	)
-	(rectangle
-		(start 70.866 74.422)
-		(end 93.726 78.232)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 2947385d-1213-4992-84df-0b013b6de574)
-	)
-	(rectangle
-		(start 85.09 62.23)
-		(end 85.09 62.23)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid a0bf3b13-1697-4c77-a820-dcea98988c28)
-	)
-	(text "HUB IC\n"
-		(exclude_from_sim no)
-		(at 77.47 77.47 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.254)
-				(bold yes)
-				(italic yes)
-			)
-		)
-		(uuid "23da8af3-29fb-4cfb-8eaa-167c5981a0a6")
-	)
 	(label "USB_AUDIO.D-"
 		(at 82.55 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2017,7 +1940,6 @@
 	)
 	(label "USB3.D+"
 		(at 82.55 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2028,7 +1950,6 @@
 	)
 	(label "USB_SBC.D+"
 		(at 138.43 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2039,7 +1960,6 @@
 	)
 	(label "USB_SBC.D-"
 		(at 138.43 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2050,7 +1970,6 @@
 	)
 	(label "USB4.D-"
 		(at 82.55 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2061,7 +1980,6 @@
 	)
 	(label "USB_CAN.D-"
 		(at 82.55 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2072,7 +1990,6 @@
 	)
 	(label "USB_CAN.D+"
 		(at 82.55 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2083,7 +2000,6 @@
 	)
 	(label "USB_AUDIO.D+"
 		(at 82.55 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2094,7 +2010,6 @@
 	)
 	(label "USB3.D-"
 		(at 82.55 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2105,7 +2020,6 @@
 	)
 	(label "USB4.D+"
 		(at 82.55 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2117,7 +2031,6 @@
 	(hierarchical_label "USB4{USB}"
 		(shape input)
 		(at 71.12 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2129,7 +2042,6 @@
 	(hierarchical_label "USB_AUDIO{USB}"
 		(shape input)
 		(at 71.12 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2141,7 +2053,6 @@
 	(hierarchical_label "USB_CAN{USB}"
 		(shape input)
 		(at 71.12 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2153,7 +2064,6 @@
 	(hierarchical_label "USB3{USB}"
 		(shape input)
 		(at 71.12 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2165,7 +2075,6 @@
 	(hierarchical_label "USB_SBC{USB}"
 		(shape input)
 		(at 154.94 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2217,7 +2126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
 			(at 154.94 93.98 0)
 			(effects
 				(font
@@ -2311,7 +2220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9197991"
+		(property "Stock" "1226257"
 			(at 199.39 106.68 0)
 			(effects
 				(font
@@ -2320,7 +2229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.007USD"
+		(property "Price" "0.008USD"
 			(at 199.39 106.68 0)
 			(effects
 				(font
@@ -2444,7 +2353,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 208.28 115.57 0)
 		(unit 1)
@@ -2573,7 +2481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "9197991"
+		(property "Stock" "1226257"
 			(at 173.99 109.22 0)
 			(effects
 				(font
@@ -2582,7 +2490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.007USD"
+		(property "Price" "0.008USD"
 			(at 173.99 109.22 0)
 			(effects
 				(font
@@ -2706,7 +2614,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 173.99 115.57 0)
 		(unit 1)
@@ -2900,7 +2807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Stock" "8324208"
+		(property "Stock" "6453835"
 			(at 208.28 106.68 0)
 			(effects
 				(font
@@ -3142,7 +3049,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 146.05 93.98 0)
 		(unit 1)
@@ -3208,7 +3114,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 162.56 93.98 0)
 		(unit 1)
