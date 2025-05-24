@@ -10,168 +10,6 @@
 		(company "ModuCard System")
 	)
 	(lib_symbols
-		(symbol "Device:C_Polarized_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_Small_0_1"
-				(rectangle
-					(start -1.524 0.6858)
-					(end 1.524 0.3048)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.524 -0.3048)
-					(end 1.524 -0.6858)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.524) (xy -0.762 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy -1.016 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Polarized_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.8542)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.8542)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_JLCPCB-Capacitors:1206,10uF"
 			(pin_numbers
 				(hide yes)
@@ -2469,18 +2307,6 @@
 		(uuid "55480878-09d5-41eb-be5b-3ac63501d96f")
 	)
 	(junction
-		(at 256.54 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d394124-b266-4ee4-b2eb-920f3ce33e0e")
-	)
-	(junction
-		(at 245.11 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c375782-0413-4e36-acfe-8a3e3bb3cb70")
-	)
-	(junction
 		(at 175.26 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2561,10 +2387,6 @@
 	(no_connect
 		(at 95.25 85.09)
 		(uuid "a535b21a-8924-4237-ae83-b7563f9af483")
-	)
-	(no_connect
-		(at 172.72 72.39)
-		(uuid "ae327f52-f505-4cd7-ac92-919c195ce660")
 	)
 	(no_connect
 		(at 172.72 102.87)
@@ -2778,16 +2600,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 58.42) (xy 245.11 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22d58650-4b1e-4434-85ed-f6a626151e11")
-	)
-	(wire
-		(pts
 			(xy 227.33 130.81) (xy 240.03 130.81)
 		)
 		(stroke
@@ -2905,16 +2717,6 @@
 			(type default)
 		)
 		(uuid "50c38b87-780e-4929-8f1b-1ea7b7686640")
-	)
-	(wire
-		(pts
-			(xy 245.11 64.77) (xy 256.54 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "534a9b5a-a36f-4b04-a252-3d568e445138")
 	)
 	(wire
 		(pts
@@ -3178,7 +2980,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 45.72) (xy 245.11 45.72)
+			(xy 175.26 45.72) (xy 256.54 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3238,7 +3040,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 64.77) (xy 256.54 59.69)
+			(xy 256.54 59.69) (xy 256.54 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3255,16 +3057,6 @@
 			(type default)
 		)
 		(uuid "c6137372-fb0b-4eb5-92bd-e65594bf5432")
-	)
-	(wire
-		(pts
-			(xy 256.54 74.93) (xy 256.54 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8eee4b5-2d9c-4d1e-b02d-873255cbb708")
 	)
 	(wire
 		(pts
@@ -3318,13 +3110,13 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 45.72) (xy 256.54 45.72)
+			(xy 172.72 72.39) (xy 175.26 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e052b34e-6ec3-4229-b871-a3f642047b56")
+		(uuid "e1b72a05-50ef-4432-b836-5d3b9ccd49fa")
 	)
 	(wire
 		(pts
@@ -3365,16 +3157,6 @@
 			(type default)
 		)
 		(uuid "ef5d2421-4f2c-433b-baaf-f31e28f899db")
-	)
-	(wire
-		(pts
-			(xy 245.11 45.72) (xy 245.11 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efdb8960-fa6a-4ee2-b0dd-4f154d7f419d")
 	)
 	(wire
 		(pts
@@ -3588,6 +3370,17 @@
 			(justify right)
 		)
 		(uuid "0cc76f6e-17b5-41af-a2b6-8469cafccdfc")
+	)
+	(hierarchical_label "CAN_3V3_ON"
+		(shape output)
+		(at 175.26 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1590dca6-d350-4f33-9abe-f07b48123760")
 	)
 	(hierarchical_label "BUCK_EN"
 		(shape input)
@@ -3891,73 +3684,6 @@
 			(project "OrangePie"
 				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/d2960c43-83cc-4db9-89f3-db63fa692eb6"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 245.11 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "269bbe8c-db7d-4525-953b-bdc5d9d13442")
-		(property "Reference" "C1"
-			(at 240.538 56.388 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47uF 50V RVT1H470M0607"
-			(at 229.87 58.674 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 245.11 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.11 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 245.11 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "842785e9-387c-40e0-a787-6bfa841b89a4")
-		)
-		(pin "2"
-			(uuid "33a9d225-5bfd-4d77-bb50-d8f9af575701")
-		)
-		(instances
-			(project "OrangePie"
-				(path "/3103c9de-f1ba-4d51-8bfc-798df1c75e2f/d2960c43-83cc-4db9-89f3-db63fa692eb6"
-					(reference "C1")
 					(unit 1)
 				)
 			)
