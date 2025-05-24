@@ -251,6 +251,16 @@
 		)
 		(uuid "296d472e-33cc-4b9c-a7c1-e6337fbc0af5")
 	)
+	(wire
+		(pts
+			(xy 54.61 111.76) (xy 54.61 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38374841-9fde-42bd-8a6e-3cbd584ac5c4")
+	)
 	(bus
 		(pts
 			(xy 181.61 87.63) (xy 190.5 87.63)
@@ -553,6 +563,26 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 111.76) (xy 54.61 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd444216-089c-4509-aab0-f4e6557b8880")
+	)
+	(wire
+		(pts
+			(xy 54.61 80.01) (xy 69.85 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb17d78-9052-442d-bee7-d261ce852d20")
+	)
+	(wire
+		(pts
 			(xy 279.4 133.35) (xy 279.4 158.75)
 		)
 		(stroke
@@ -636,8 +666,8 @@
 		)
 	)
 	(sheet
-		(at 58.42 77.47)
-		(size 38.1 5.08)
+		(at 69.85 77.47)
+		(size 26.67 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -652,7 +682,7 @@
 		)
 		(uuid "084f5268-da4d-42c1-ab4c-8df67e35e1fc")
 		(property "Sheetname" "CAN pwr sw"
-			(at 58.42 76.7584 0)
+			(at 69.85 76.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -661,7 +691,7 @@
 			)
 		)
 		(property "Sheetfile" "CAN pwr sw.kicad_sch"
-			(at 58.42 83.1346 0)
+			(at 69.85 83.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -677,6 +707,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "CAN_3V3_ON" input
+			(at 69.85 80.01 180)
+			(uuid "84221eeb-ef9f-427a-99b3-5f0b4c28252d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1522,6 +1562,16 @@
 		(pin "DAC RST" input
 			(at 190.5 34.29 180)
 			(uuid "423c764f-298b-494b-9371-881b40dce14b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_3V3_ON" output
+			(at 190.5 111.76 180)
+			(uuid "87ab0a61-7454-450d-b273-ae1356176799")
 			(effects
 				(font
 					(size 1.27 1.27)
