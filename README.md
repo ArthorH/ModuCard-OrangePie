@@ -16,7 +16,7 @@
 <img align="center" height="400" src="https://github.com/user-attachments/assets/d4d65f8d-c387-4a14-a206-84c8d4a858b6">&nbsp;&nbsp;&nbsp;&nbsp;
 
 # Manufactured board
-![obraz](https://github.com/user-attachments/assets/bbdc9bcd-c89d-4a9a-b487-b6c7afafb064)
+![IMG_9583](https://github.com/user-attachments/assets/7561f341-4573-4cd6-80be-09a7b54952c2)
 
 # Author
 Artem Horiunov
