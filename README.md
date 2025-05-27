@@ -1,5 +1,6 @@
 # ModuCard System Orange PI 5 pro adapter
-![obraz](https://github.com/user-attachments/assets/39618273-6af7-4892-a9c2-df5d4fd92d83)
+![obraz](https://github.com/user-attachments/assets/1b9f4bf2-4ced-427d-a938-c4da28f30412)
+
 ## Project Status: **Ongoing**  
 **Design** ✅ — **Fabrication** ✅ — **Assembly** ✅ — **Bringup** ✅ — **Testing** ⏳  
 ## Key technologies:
