@@ -20,13 +20,16 @@
 ![IMG_9583](https://github.com/user-attachments/assets/7561f341-4573-4cd6-80be-09a7b54952c2)
 
 # Moducard OrangePie in Zwentendorf Austria!
-<img width="1010" height="669" alt="image" src="https://github.com/user-attachments/assets/d876886f-694d-467b-bc8e-3bdace99b85e" />
+<img width="4096" height="2712" alt="AMSModuCard" src="https://github.com/user-attachments/assets/34be3938-0394-4445-b9b6-8179f56604f0" />
+
 
 ### Check out other projects
 
 Orange Pie ->  https://github.com/ArthorH/ModuCard-OrangePie
 
-Moducard Base module -> https://github.com/ArthorH/ModuCard-base-module
+ModuCard Base module -> https://github.com/ArthorH/ModuCard-base-module
+
+ModuCard Backplane -> https://github.com/ArthorH/ModuCard-backplane
 
 ![ezgif-5062213efaebb7](https://github.com/user-attachments/assets/1c6d2976-b773-4642-ad22-0548754e4d04)
 
