@@ -8,7 +8,7 @@
 **Design** ✅ — **Fabrication** ✅ — **Assembly** ✅ — **Bringup** ✅ — **Testing** ⛔ 
 Failed: https://github.com/ArthorH/ModuCard-OrangePie/issues/6
 ### REV A
-**Design** ✅ — **Fabrication** ✅ — **Assembly** ✅ — **Bringup** ✅ — **Testing** ✅ 
+**Design** ✅ — **Fabrication** ✅ — **Assembly** ✅ — **Bringup** ✅ — **Testing done** ✅ 
 ## Key technologies:
 <img align="center" height="70" src="https://github.com/user-attachments/assets/565f0c9d-0a80-4dde-8ea5-c8de8c836827">&nbsp;&nbsp;&nbsp;&nbsp; <img align="center" height="70" src="https://github.com/user-attachments/assets/21632584-becb-4529-b696-acb84c8190e9">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
 # Features
